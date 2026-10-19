@@ -162,7 +162,7 @@ export default {
             'noise-cancellation': 0x02,
             'adaptive': 0x0800,
         },
-        ancCycleType: 2,
+        ancCycleType: 1,
         minimumNoiseControlModes: 1,
     },
 
