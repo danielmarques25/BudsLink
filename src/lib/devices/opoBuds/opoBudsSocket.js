@@ -772,7 +772,7 @@ export const OpoBudsSocket = GObject.registerClass({
             this._callbacks?.updateNoiseControlCycle?.(mask);
         } else if (action === 0x01) {
             const modeBytes = payload.length >= 4 ? payload.slice(3) : [valByte];
-            const mode = this._decodeNoiseControlMode(modeBytes, 'set');
+            const mode = this._decodeNoiseControlMode(modeBytes, 'event');
             this._log.info(`Parsed ANC mode response: ${hexBytes(modeBytes)} -> ${mode}`);
 
             if (mode)
