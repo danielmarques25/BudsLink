@@ -1010,7 +1010,8 @@ export const OpoBudsDevice = GObject.registerClass({
     }
 
     updateEqPreset(preset) {
-        this._updateSimpleSetting('_eqPreset', 'eq-preset', preset);
+        this._updateSettingKey('eq-preset', preset);
+        this._updateSettingKey('eq-preset-refresh-ts', Date.now());
     }
 
     updateCustomEqs(entries) {

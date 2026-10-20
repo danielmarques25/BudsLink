@@ -147,8 +147,11 @@ export const ConfigureWindow = GObject.registerClass({
                         this._syncEqDropdownOptions();
                     }
 
-                    if (this._eqPresetDropdown.selected_item !== this._settingsItems['eq-preset'])
+                    if (this._eqPresetDropdown.selected_item !== this._settingsItems['eq-preset']) {
                         this._eqPresetDropdown.selected_item = this._settingsItems['eq-preset'];
+                        if (this._modelData.customEqSupport)
+                            this._syncCustomEqRows();
+                    }
                 }
 
                 if (this._modelData.dynamicBass && this._dynamicAudioExpander) {
@@ -391,6 +394,9 @@ export const ConfigureWindow = GObject.registerClass({
             if (this._isUpdatingUI)
                 return;
             this._updateGsettings('eq-preset', this._eqPresetDropdown.selected_item);
+
+            if (this._modelData.customEqSupport)
+                this._syncCustomEqRows();
         });
 
         if (this._modelData.customEqSupport) {
@@ -526,7 +532,8 @@ export const ConfigureWindow = GObject.registerClass({
 
             const row = new Adw.ActionRow({
                 title: entry.name || _('Custom'),
-                subtitle: entry.selected ? _('Currently active') : '',
+                subtitle: this._settingsItems['eq-preset'] === entry.eqId ? _('Currently active')
+                    : '',
             });
 
             const editButton = new Gtk.Button({
