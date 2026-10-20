@@ -5,7 +5,7 @@ import {gettext as _} from 'gettext';
 
 import {createLogger, getDeviceIdentifier} from '../logger.js';
 import {
-    buds2to1BatteryLevel, validateProperties, launchConfigureWindow, isArrayEqual
+    buds2to1BatteryLevel, validateProperties, launchConfigureWindow, isArrayEqual, getAdapterMac
 } from '../deviceUtils.js';
 import {BtDeviceState, DeviceManagementAction} from '../commonEmuns.js';
 import {createConfig, createProperties, DataHandler} from '../../dataHandler.js';
@@ -109,6 +109,9 @@ export const NothingBudsDevice = GObject.registerClass({
             }
             this._updateGsettings();
         }
+
+        if (this._modelData.dualConnection)
+            this._updateOwnId();
     }
 
     _createDefaultSettings() {
@@ -165,6 +168,7 @@ export const NothingBudsDevice = GObject.registerClass({
                 'multipoint': false,
                 'dev-mgmt': [],
                 'dev-mgmt-action': {seq: 0, action: 0, id: ''},
+                'own-dev': '',
             },
 
             ...this._modelData.gestureOptions && {
@@ -815,6 +819,18 @@ export const NothingBudsDevice = GObject.registerClass({
             return;
 
         this._nothingBudsSocket?.setDualConnectionDevice(mac, connect);
+    }
+
+    async _updateOwnId() {
+        const ownMac = await getAdapterMac();
+
+        if (!ownMac)
+            return;
+
+        const id = ownMac.replaceAll(':', '').toLowerCase();
+
+        this._settingsItems['own-dev'] = id;
+        this._updateGsettings();
     }
 
     _createDefaultGestures() {

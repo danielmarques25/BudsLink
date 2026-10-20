@@ -507,11 +507,13 @@ export const ConfigureWindow = GObject.registerClass({
             refreshOnWindowOpen: false,
         };
 
+        const ownDevice = this._settingsItems['own-dev'];
+
         this._dualConnSwitch = new DeviceManagementRow(
             this,
             this._settingsItems['dev-mgmt'] ?? [],
-            null,
-            null,
+            ownDevice,
+            '',
             deviceManagementConfig
         );
 
