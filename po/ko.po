@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: BudsLink\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-09-23 14:54-0600\n"
+"POT-Creation-Date: 2026-10-20 13:13-0600\n"
 "PO-Revision-Date: 2026-09-22 17:51+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: none\n"
@@ -18,54 +18,59 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 2026.10.dev0\n"
 
-#: src/app.js:228 src/lib/widgets/deviceRow.js:56
+#: src/app.js:230 src/lib/widgets/deviceRow.js:56
 msgid "BudsLink"
 msgstr "BudsLink"
 
-#: src/app.js:238
+#: src/app.js:240
 msgid "Devices"
 msgstr "기기"
 
-#: src/app.js:240
+#: src/app.js:242
 msgid "No compatible device found"
 msgstr "호환 기기를 찾을 수 없습니다"
 
 #: src/preferences/devices/edifierBuds/configureWindow.js:63
+#: src/preferences/devices/soundcore/configureWindow.js:243
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:183
 msgid "Settings"
 msgstr "설정"
 
 #: src/preferences/devices/edifierBuds/configureWindow.js:68
-#: src/preferences/devices/redmiBuds/configureWindow.js:447
-#: src/preferences/devices/nothingBuds/configureWindow.js:354
-#: src/preferences/devices/opoBuds/configureWindow.js:826
-#: src/preferences/devices/opoBuds/configureWindow.js:1065
+#: src/preferences/devices/soundcore/configureWindow.js:192
+#: src/preferences/devices/redmiBuds/configureWindow.js:458
+#: src/preferences/devices/nothingBuds/configureWindow.js:394
+#: src/preferences/devices/opoBuds/configureWindow.js:919
+#: src/preferences/devices/opoBuds/configureWindow.js:1173
 msgid "Game Mode"
 msgstr ""
 
 #: src/preferences/devices/edifierBuds/configureWindow.js:69
-#: src/preferences/devices/redmiBuds/configureWindow.js:448
-#: src/preferences/devices/nothingBuds/configureWindow.js:355
-#: src/preferences/devices/opoBuds/configureWindow.js:827
+#: src/preferences/devices/soundcore/configureWindow.js:193
+#: src/preferences/devices/redmiBuds/configureWindow.js:459
+#: src/preferences/devices/nothingBuds/configureWindow.js:395
+#: src/preferences/devices/opoBuds/configureWindow.js:920
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:181
 msgid "Reduces latency and enhances in-game audio"
 msgstr ""
 
 #: src/preferences/devices/edifierBuds/configureWindow.js:80
-#: src/preferences/devices/nothingBuds/configureWindow.js:369
+#: src/preferences/devices/nothingBuds/configureWindow.js:409
 #: src/preferences/devices/senhBuds/configureWindow.js:562
-#: src/preferences/devices/opoBuds/configureWindow.js:842
+#: src/preferences/devices/opoBuds/configureWindow.js:935
 #: src/preferences/devices/boseBuds/configureWindow.js:374
 msgid "In-Ear Detection"
 msgstr ""
 
 #: src/preferences/devices/edifierBuds/configureWindow.js:81
-#: src/preferences/devices/nothingBuds/configureWindow.js:370
+#: src/preferences/devices/nothingBuds/configureWindow.js:410
 #: src/preferences/devices/senhBuds/configureWindow.js:563
 #: src/preferences/devices/boseBuds/configureWindow.js:375
 msgid "Enable features based on wearing detection"
 msgstr ""
 
 #: src/preferences/devices/airpods/configureWindow.js:103
-#: src/preferences/devices/redmiBuds/configureWindow.js:218
+#: src/preferences/devices/redmiBuds/configureWindow.js:222
 #: src/preferences/devices/senhBuds/configureWindow.js:629
 #: src/preferences/devices/galaxyBuds/configureWindow.js:112
 #: src/preferences/devices/boseBuds/configureWindow.js:428
@@ -74,7 +79,7 @@ msgstr "재생 동작"
 
 #: src/preferences/devices/airpods/configureWindow.js:107
 #: src/preferences/devices/airpods/configureWindow.js:110
-#: src/preferences/devices/redmiBuds/configureWindow.js:222
+#: src/preferences/devices/redmiBuds/configureWindow.js:226
 #: src/preferences/devices/senhBuds/configureWindow.js:634
 #: src/preferences/devices/senhBuds/configureWindow.js:638
 #: src/preferences/devices/galaxyBuds/configureWindow.js:116
@@ -90,7 +95,7 @@ msgid "Resume when worn"
 msgstr "착용 시 재개"
 
 #: src/preferences/devices/airpods/configureWindow.js:111
-#: src/preferences/devices/redmiBuds/configureWindow.js:223
+#: src/preferences/devices/redmiBuds/configureWindow.js:227
 #: src/preferences/devices/senhBuds/configureWindow.js:635
 #: src/preferences/devices/galaxyBuds/configureWindow.js:117
 #: src/preferences/devices/boseBuds/configureWindow.js:434
@@ -98,7 +103,7 @@ msgid "Resume with both earbuds, Pause if any removed"
 msgstr "양쪽 이어버드 착용 시 재생, 한쪽 제거 시 일시정지"
 
 #: src/preferences/devices/airpods/configureWindow.js:112
-#: src/preferences/devices/redmiBuds/configureWindow.js:224
+#: src/preferences/devices/redmiBuds/configureWindow.js:228
 #: src/preferences/devices/senhBuds/configureWindow.js:636
 #: src/preferences/devices/galaxyBuds/configureWindow.js:118
 #: src/preferences/devices/boseBuds/configureWindow.js:435
@@ -112,7 +117,7 @@ msgid "Choose Playback Behavior for In-Ear Detection"
 msgstr ""
 
 #: src/preferences/devices/airpods/configureWindow.js:117
-#: src/preferences/devices/redmiBuds/configureWindow.js:229
+#: src/preferences/devices/redmiBuds/configureWindow.js:233
 #: src/preferences/devices/senhBuds/configureWindow.js:648
 #: src/preferences/devices/galaxyBuds/configureWindow.js:123
 #: src/preferences/devices/boseBuds/configureWindow.js:447
@@ -161,14 +166,17 @@ msgstr ""
 "를 끄면 보청기 기능도 꺼지고 전력 사용량이 줄어듭니다."
 
 #: src/preferences/devices/airpods/configureWindow.js:219
-#: src/preferences/devices/redmiBuds/configureWindow.js:477
-#: src/preferences/devices/nothingBuds/configureWindow.js:403
+#: src/preferences/devices/soundcore/configureWindow.js:162
+#: src/preferences/devices/soundcore/configureWindow.js:643
+#: src/preferences/devices/redmiBuds/configureWindow.js:488
+#: src/preferences/devices/nothingBuds/configureWindow.js:548
 #: src/preferences/devices/senhBuds/configureWindow.js:222
 #: src/preferences/devices/senhBuds/configureWindow.js:438
 #: src/preferences/devices/senhBuds/configureWindow.js:688
 #: src/preferences/devices/galaxyBuds/configureWindow.js:271
 #: src/preferences/devices/galaxyBuds/configureWindow.js:524
-#: src/preferences/devices/opoBuds/configureWindow.js:1158
+#: src/preferences/devices/opoBuds/configureWindow.js:1284
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:194
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:181
 #: src/preferences/devices/boseBuds/configureWindow.js:486
 #: src/preferences/devices/sony/configureWindow.js:127
@@ -178,15 +186,17 @@ msgstr ""
 #: src/lib/devices/edifierBuds/edifierBudsDevice.js:282
 #: src/lib/devices/airpods/airpodsDevice.js:201
 #: src/lib/devices/airpods/airpodsDevice.js:243
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:603
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:373
+#: src/lib/devices/soundcore/soundcoreDevice.js:268
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:607
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:435
 #: src/lib/devices/senhBuds/senhBudsDevice.js:559
 #: src/lib/devices/senhBuds/senhBudsDevice.js:589
 #: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:627
 #: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:693
 #: src/lib/devices/gfps/gfpsDevice.js:170
 #: src/lib/devices/gfps/gfpsDevice.js:182
-#: src/lib/devices/opoBuds/opoBudsDevice.js:535
+#: src/lib/devices/opoBuds/opoBudsDevice.js:612
+#: src/lib/devices/cambridgeBuds/cambridgeBudsDevice.js:296
 #: src/lib/devices/boseBuds/boseBudsDevice.js:681
 #: src/lib/devices/boseBuds/boseBudsDevice.js:764
 #: src/lib/devices/sony/sonyDevice.js:182
@@ -197,34 +207,40 @@ msgid "Off"
 msgstr "끔"
 
 #: src/preferences/devices/airpods/configureWindow.js:226
-#: src/preferences/devices/opoBuds/configureWindow.js:1162
+#: src/preferences/devices/soundcore/configureWindow.js:162
+#: src/preferences/devices/soundcore/configureWindow.js:648
+#: src/preferences/devices/opoBuds/configureWindow.js:1288
 #: src/lib/devices/airpods/airpodsDevice.js:202
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:612
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:377
+#: src/lib/devices/soundcore/soundcoreDevice.js:268
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:616
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:439
 #: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:628
 #: src/lib/devices/gfps/gfpsDevice.js:188
-#: src/lib/devices/opoBuds/opoBudsDevice.js:554
+#: src/lib/devices/opoBuds/opoBudsDevice.js:617
+#: src/lib/devices/cambridgeBuds/cambridgeBudsDevice.js:298
 #: src/lib/devices/googleBuds/googleBudsDevice.js:217
 msgid "Transparency"
 msgstr "투명도"
 
 #: src/preferences/devices/airpods/configureWindow.js:232
-#: src/preferences/devices/redmiBuds/configureWindow.js:479
-#: src/preferences/devices/nothingBuds/configureWindow.js:405
+#: src/preferences/devices/soundcore/configureWindow.js:162
+#: src/preferences/devices/soundcore/configureWindow.js:653
+#: src/preferences/devices/redmiBuds/configureWindow.js:491
+#: src/preferences/devices/nothingBuds/configureWindow.js:550
 #: src/preferences/devices/galaxyBuds/configureWindow.js:526
-#: src/preferences/devices/opoBuds/configureWindow.js:1166
+#: src/preferences/devices/opoBuds/configureWindow.js:1292
 #: src/preferences/devices/sony/configureWindow.js:365
 #: src/lib/devices/edifierBuds/edifierBudsDevice.js:283
 #: src/lib/devices/airpods/airpodsDevice.js:204
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:621
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:421
+#: src/lib/devices/soundcore/soundcoreDevice.js:268
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:625
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:483
 #: src/lib/devices/senhBuds/senhBudsDevice.js:560
 #: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:630
 #: src/lib/devices/gfps/gfpsDevice.js:172
 #: src/lib/devices/gfps/gfpsDevice.js:200
-#: src/lib/devices/opoBuds/opoBudsDevice.js:598
-#: src/lib/devices/opoBuds/opoBudsDevice.js:602
-#: src/lib/devices/opoBuds/opoBudsDevice.js:606
+#: src/lib/devices/opoBuds/opoBudsDevice.js:623
+#: src/lib/devices/cambridgeBuds/cambridgeBudsDevice.js:297
 #: src/lib/devices/boseBuds/boseBudsDevice.js:755
 #: src/lib/devices/sony/sonyDevice.js:187
 #: src/lib/devices/googleBuds/googleBudsDevice.js:223
@@ -232,17 +248,19 @@ msgid "Noise Cancellation"
 msgstr "노이즈 캔슬링"
 
 #: src/preferences/devices/airpods/configureWindow.js:239
+#: src/preferences/devices/soundcore/configureWindow.js:167
 #: src/preferences/devices/galaxyBuds/configureWindow.js:530
+#: src/preferences/devices/opoBuds/configureWindow.js:1296
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:141
 #: src/lib/devices/airpods/airpodsDevice.js:203
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:636
 #: src/lib/devices/redmiBuds/redmiBudsDevice.js:640
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:653
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:399
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:644
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:657
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:461
 #: src/lib/devices/senhBuds/senhBudsDevice.js:561
 #: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:629
 #: src/lib/devices/gfps/gfpsDevice.js:194
-#: src/lib/devices/opoBuds/opoBudsDevice.js:908
+#: src/lib/devices/opoBuds/opoBudsDevice.js:627
 #: src/lib/devices/googleBuds/googleBudsDevice.js:229
 msgid "Adaptive"
 msgstr "적응형"
@@ -260,11 +278,12 @@ msgid "Settings don’t reflect current state"
 msgstr ""
 
 #: src/preferences/devices/airpods/configureWindow.js:254
-#: src/preferences/devices/redmiBuds/configureWindow.js:485
-#: src/preferences/devices/nothingBuds/configureWindow.js:416
+#: src/preferences/devices/soundcore/configureWindow.js:662
+#: src/preferences/devices/redmiBuds/configureWindow.js:497
+#: src/preferences/devices/nothingBuds/configureWindow.js:561
 #: src/preferences/devices/galaxyBuds/configureWindow.js:565
 #: src/preferences/devices/galaxyBuds/configureWindow.js:587
-#: src/preferences/devices/opoBuds/configureWindow.js:1176
+#: src/preferences/devices/opoBuds/configureWindow.js:1330
 #: src/preferences/devices/sony/configureWindow.js:374
 msgid "Apply"
 msgstr "적용"
@@ -294,8 +313,9 @@ msgid "125%"
 msgstr "125%"
 
 #: src/preferences/devices/airpods/configureWindow.js:305
-#: src/preferences/devices/nothingBuds/configureWindow.js:633
+#: src/preferences/devices/nothingBuds/configureWindow.js:785
 #: src/preferences/devices/galaxyBuds/configureWindow.js:465
+#: src/preferences/devices/opoBuds/configureWindow.js:1175
 #: src/preferences/devices/sony/configureWindow.js:312
 msgid "Volume Control"
 msgstr "음량 조절"
@@ -311,7 +331,9 @@ msgstr "이어버드 스템 스와이프로 볼륨 조절 활성화 또는 비�
 #: src/preferences/devices/airpods/configureWindow.js:319
 #: src/preferences/devices/airpods/configureWindow.js:352
 #: src/preferences/devices/airpods/configureWindow.js:370
+#: src/preferences/devices/soundcore/configureWindow.js:377
 #: src/preferences/devices/googleBuds/configureWindow.js:79
+#: src/lib/devices/soundcore/soundcoreDevice.js:282
 msgid "Default"
 msgstr "기본"
 
@@ -367,36 +389,342 @@ msgstr "길게 누르기 지속 시간"
 msgid "Set how long you need to press and hold before an action occurs"
 msgstr "동작이 실행되기까지 길게 누르는 시간을 설정합니다"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:228
-#: src/preferences/devices/galaxyBuds/configureWindow.js:122
-msgid "Choose Playback Behavior for Ear Detection"
+#: src/preferences/devices/soundcore/configureWindow.js:93
+#: src/preferences/devices/soundcore/configureWindow.js:188
+#: src/preferences/devices/nothingBuds/configureWindow.js:244
+#: src/preferences/devices/senhBuds/configureWindow.js:215
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:77
+#: src/preferences/devices/boseBuds/configureWindow.js:267
+msgid "Sound Settings"
 msgstr ""
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:248
-#: src/preferences/devices/senhBuds/configureWindow.js:223
-#: src/preferences/devices/galaxyBuds/configureWindow.js:267
-#: src/preferences/devices/opoBuds/configureWindow.js:321
-#: src/preferences/devices/sony/configureWindow.js:206
-#: src/preferences/devices/googleBuds/configureWindow.js:66
-msgid "Equalizer"
-msgstr "이퀄라이저"
+#: src/preferences/devices/soundcore/configureWindow.js:94
+#: src/preferences/devices/nothingBuds/configureWindow.js:580
+#: src/preferences/devices/nothingBuds/configureWindow.js:742
+#: src/preferences/devices/nothingBuds/configureWindow.js:760
+#: src/preferences/devices/boseBuds/configureWindow.js:772
+#: src/preferences/devices/boseBuds/configureWindow.js:781
+msgid "Gesture Controls"
+msgstr "제스처 조작"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:254
-#: src/preferences/devices/redmiBuds/configureWindow.js:265
-#: src/preferences/devices/sony/configureWindow.js:127
-#: src/preferences/devices/sony/configureWindow.js:151
-#: src/lib/devices/sony/sonyDevice.js:197
-msgid "Standard"
-msgstr "표준"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:255
-#: src/preferences/devices/nothingBuds/configureWindow.js:211
-#: src/preferences/devices/sony/configureWindow.js:214
-msgid "Vocals"
+#: src/preferences/devices/soundcore/configureWindow.js:96
+msgid "Device"
 msgstr ""
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:256
-#: src/preferences/devices/nothingBuds/configureWindow.js:213
+#: src/preferences/devices/soundcore/configureWindow.js:158
+#: src/preferences/devices/galaxyBuds/configureWindow.js:466
+#: src/lib/devices/edifierBuds/edifierBudsDevice.js:284
+msgid "Ambient Sound"
+msgstr "주변음"
+
+#: src/preferences/devices/soundcore/configureWindow.js:161
+#: src/preferences/devices/soundcore/configureWindow.js:375
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:85
+msgid "Mode"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:166
+#: src/preferences/devices/nothingBuds/configureWindow.js:791
+msgid "ANC Type"
+msgstr "ANC 유형"
+
+#: src/preferences/devices/soundcore/configureWindow.js:167
+#: src/preferences/devices/sony/configureWindow.js:218
+msgid "Manual"
+msgstr "수동"
+
+#: src/preferences/devices/soundcore/configureWindow.js:167
+#: src/preferences/devices/soundcore/configureWindow.js:172
+msgid "Transportation"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:169
+msgid "Environment Detection"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:171
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:121
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:455
+#: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:667
+#: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:678
+#: src/lib/devices/opoBuds/opoBudsDevice.js:600
+msgid "Noise Cancellation Level"
+msgstr "노이즈 캔슬링 레벨"
+
+#: src/preferences/devices/soundcore/configureWindow.js:173
+msgid "Plane"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:173
+msgid "Train"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:173
+msgid "Bus"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:173
+msgid "Car"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:177
+msgid "Transparency Type"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:178
+msgid "Fully Transparent"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:178
+msgid "Vocal Mode"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:181
+#: src/lib/devices/opoBuds/opoBudsDevice.js:631
+#: src/lib/devices/opoBuds/opoBudsDevice.js:641
+msgid "Wind Noise Reduction"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:184
+#: src/preferences/devices/opoBuds/configureWindow.js:712
+#: src/lib/devices/soundcore/soundcoreDevice.js:279
+msgid "Audio Effects"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:190
+msgid "Sound Leak Compensation"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:194
+msgid "Limit High Volume"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:196
+msgid "Volume Limit"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:199
+msgid "Decibel Reading Refresh Rate"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:200
+msgid "Real time"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:200
+#: src/preferences/devices/galaxyBuds/configureWindow.js:249
+msgid "10 seconds"
+msgstr "10초"
+
+#: src/preferences/devices/soundcore/configureWindow.js:200
+msgid "1 minute"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:246
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:178
+msgid "LDAC"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:247
+msgid ""
+"High resolution codec. Turns off connections to multiple devices and the "
+"earbuds reconnect when this changes"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:249
+msgid "Auto Play/Pause"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:250
+#: src/preferences/devices/sony/configureWindow.js:446
+msgid "Pause when taken off"
+msgstr "탈착 시 일시정지"
+
+#: src/preferences/devices/soundcore/configureWindow.js:251
+msgid "Wearing Tone"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:253
+msgid "Touch Tone"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:255
+msgid "Touch Lock"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:257
+msgid "Low Battery Prompt"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:259
+#: src/preferences/devices/senhBuds/configureWindow.js:613
+#: src/preferences/devices/sony/configureWindow.js:460
+msgid "Automatic Power Off"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:260
+#: src/preferences/devices/senhBuds/configureWindow.js:602
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:206
+#: src/preferences/devices/boseBuds/configureWindow.js:567
+msgid "Never"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:260
+msgid "After 10 minutes"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:260
+#: src/preferences/devices/boseBuds/configureWindow.js:569
+msgid "After 20 minutes"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:260
+#: src/preferences/devices/senhBuds/configureWindow.js:604
+#: src/preferences/devices/sony/configureWindow.js:477
+msgid "After 30 minutes"
+msgstr "30분 후"
+
+#: src/preferences/devices/soundcore/configureWindow.js:261
+#: src/preferences/devices/senhBuds/configureWindow.js:605
+#: src/preferences/devices/boseBuds/configureWindow.js:571
+#: src/preferences/devices/sony/configureWindow.js:478
+msgid "After 1 hour"
+msgstr "1시간 후"
+
+#: src/preferences/devices/soundcore/configureWindow.js:366
+#: src/preferences/devices/redmiBuds/configureWindow.js:316
+#: src/preferences/devices/senhBuds/configureWindow.js:333
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:142
+#: src/preferences/devices/sony/configureWindow.js:268
+msgid "Frequency (Hz)"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:367
+#: src/preferences/devices/redmiBuds/configureWindow.js:317
+#: src/preferences/devices/nothingBuds/configureWindow.js:303
+#: src/preferences/devices/senhBuds/configureWindow.js:334
+#: src/preferences/devices/opoBuds/configureWindow.js:476
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:143
+#: src/preferences/devices/boseBuds/configureWindow.js:334
+#: src/preferences/devices/sony/configureWindow.js:269
+#: src/preferences/devices/googleBuds/configureWindow.js:139
+msgid "Gain (dB)"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:372
+#: src/preferences/devices/redmiBuds/configureWindow.js:336
+#: src/preferences/devices/nothingBuds/configureWindow.js:370
+#: src/preferences/devices/nothingBuds/configureWindow.js:806
+#: src/preferences/devices/opoBuds/configureWindow.js:872
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:180
+#: src/preferences/devices/boseBuds/configureWindow.js:794
+#: src/lib/devices/boseBuds/boseBudsDevice.js:762
+msgid "Spatial Audio"
+msgstr "공간 음향"
+
+#: src/preferences/devices/soundcore/configureWindow.js:376
+#: src/preferences/devices/redmiBuds/configureWindow.js:290
+#: src/preferences/devices/nothingBuds/configureWindow.js:278
+#: src/preferences/devices/senhBuds/configureWindow.js:290
+#: src/preferences/devices/galaxyBuds/configureWindow.js:291
+#: src/preferences/devices/opoBuds/configureWindow.js:386
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:108
+#: src/preferences/devices/boseBuds/configureWindow.js:306
+#: src/preferences/devices/sony/configureWindow.js:240
+msgid "Change the sound signature"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:377
+msgid "HearID Sound"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:377
+#: src/preferences/devices/soundcore/configureWindow.js:382
+#: src/preferences/devices/soundcore/configureWindow.js:467
+#: src/preferences/devices/redmiBuds/configureWindow.js:284
+#: src/preferences/devices/nothingBuds/configureWindow.js:272
+#: src/preferences/devices/senhBuds/configureWindow.js:284
+#: src/preferences/devices/opoBuds/configureWindow.js:380
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:100
+#: src/preferences/devices/boseBuds/configureWindow.js:299
+#: src/preferences/devices/sony/configureWindow.js:246
+#: src/preferences/devices/googleBuds/configureWindow.js:108
+#: src/lib/devices/soundcore/soundcoreDevice.js:284
+msgid "Custom Equalizer"
+msgstr "사용자 정의 이퀄라이저"
+
+#: src/preferences/devices/soundcore/configureWindow.js:402
+msgid "Saved Equalizers"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:403
+#: src/preferences/devices/soundcore/configureWindow.js:545
+msgid "Not saved"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:419
+#: src/preferences/devices/soundcore/configureWindow.js:560
+msgid "Save Equalizer"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:422
+#: src/preferences/devices/soundcore/configureWindow.js:565
+msgid "Save"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:431
+msgid "Delete Saved Equalizer"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:434
+#: src/preferences/devices/opoBuds/configureWindow.js:675
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:74
+msgid "Delete"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:447
+#: src/preferences/devices/redmiBuds/configureWindow.js:289
+#: src/preferences/devices/nothingBuds/configureWindow.js:277
+#: src/preferences/devices/nothingBuds/configureWindow.js:812
+#: src/preferences/devices/senhBuds/configureWindow.js:289
+#: src/preferences/devices/galaxyBuds/configureWindow.js:290
+#: src/preferences/devices/opoBuds/configureWindow.js:385
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:107
+#: src/preferences/devices/boseBuds/configureWindow.js:305
+#: src/preferences/devices/sony/configureWindow.js:239
+#: src/preferences/devices/googleBuds/configureWindow.js:102
+msgid "Equalizer Preset"
+msgstr "이퀄라이저 프리셋"
+
+#: src/preferences/devices/soundcore/configureWindow.js:461
+#: src/lib/devices/soundcore/soundcoreDevice.js:280
+msgid "HearID"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:462
+msgid "Initial Curve"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:462
+msgid "Custom HearID"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:462
+#: src/preferences/devices/soundcore/configureWindow.js:485
+msgid "Favorite Music Genre"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:502
+msgid "Anker Signature"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:503
+msgid "Acoustic"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:504
+#: src/preferences/devices/redmiBuds/configureWindow.js:260
+#: src/preferences/devices/nothingBuds/configureWindow.js:253
 #: src/preferences/devices/galaxyBuds/configureWindow.js:272
 #: src/preferences/devices/boseBuds/configureWindow.js:277
 #: src/preferences/devices/sony/configureWindow.js:216
@@ -404,426 +732,196 @@ msgstr ""
 msgid "Bass Boost"
 msgstr "저음 부스트"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:257
-#: src/preferences/devices/nothingBuds/configureWindow.js:212
+#: src/preferences/devices/soundcore/configureWindow.js:505
+#: src/preferences/devices/redmiBuds/configureWindow.js:266
+#: src/preferences/devices/boseBuds/configureWindow.js:278
+#: src/preferences/devices/googleBuds/configureWindow.js:81
+msgid "Bass Reducer"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:506
+#: src/preferences/devices/nothingBuds/configureWindow.js:259
+#: src/preferences/devices/senhBuds/configureWindow.js:263
+msgid "Classical"
+msgstr "클래식"
+
+#: src/preferences/devices/soundcore/configureWindow.js:507
+#: src/preferences/devices/senhBuds/configureWindow.js:224
+msgid "Podcast"
+msgstr "팟캐스트"
+
+#: src/preferences/devices/soundcore/configureWindow.js:508
+#: src/preferences/devices/senhBuds/configureWindow.js:261
+#, fuzzy
+msgid "Dance"
+msgstr "댄스"
+
+#: src/preferences/devices/soundcore/configureWindow.js:509
+msgid "Deep"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:510
+#: src/preferences/devices/nothingBuds/configureWindow.js:256
+#: src/preferences/devices/opoBuds/configureWindow.js:359
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:84
+msgid "Electronic"
+msgstr "일렉트로닉"
+
+#: src/preferences/devices/soundcore/configureWindow.js:511
+#: src/preferences/devices/senhBuds/configureWindow.js:258
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:82
+#: src/preferences/devices/boseBuds/configureWindow.js:276
+msgid "Flat"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:512
+#: src/preferences/devices/senhBuds/configureWindow.js:262
+msgid "Hip Hop"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:513
+#: src/preferences/devices/senhBuds/configureWindow.js:265
+msgid "Jazz"
+msgstr "재즈"
+
+#: src/preferences/devices/soundcore/configureWindow.js:514
+msgid "Latin"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:515
+msgid "Lounge"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:516
+msgid "Piano"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:517
+#: src/preferences/devices/nothingBuds/configureWindow.js:257
+#: src/preferences/devices/senhBuds/configureWindow.js:260
+#: src/preferences/devices/opoBuds/configureWindow.js:358
+msgid "Pop"
+msgstr "팝"
+
+#: src/preferences/devices/soundcore/configureWindow.js:518
+msgid "R&B"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:519
+#: src/preferences/devices/nothingBuds/configureWindow.js:255
+#: src/preferences/devices/senhBuds/configureWindow.js:259
+#: src/preferences/devices/opoBuds/configureWindow.js:357
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:86
+msgid "Rock"
+msgstr "록"
+
+#: src/preferences/devices/soundcore/configureWindow.js:520
+msgid "Small Speaker(s)"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:521
+msgid "Spoken Word"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:522
+#: src/preferences/devices/redmiBuds/configureWindow.js:261
+#: src/preferences/devices/nothingBuds/configureWindow.js:252
 #: src/preferences/devices/galaxyBuds/configureWindow.js:276
 #: src/preferences/devices/boseBuds/configureWindow.js:279
 #: src/preferences/devices/sony/configureWindow.js:215
 msgid "Treble Boost"
 msgstr "고음 부스트"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:258
-msgid "Volume Boost"
+#: src/preferences/devices/soundcore/configureWindow.js:523
+#: src/preferences/devices/boseBuds/configureWindow.js:280
+msgid "Treble Reducer"
 msgstr ""
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:259
-#: src/preferences/devices/nothingBuds/configureWindow.js:220
-#: src/preferences/devices/senhBuds/configureWindow.js:278
-#: src/preferences/devices/opoBuds/configureWindow.js:334
-#: src/preferences/devices/opoBuds/configureWindow.js:402
-#: src/preferences/devices/opoBuds/configureWindow.js:445
-#: src/preferences/devices/opoBuds/configureWindow.js:504
-#: src/preferences/devices/opoBuds/configureWindow.js:560
-#: src/preferences/devices/opoBuds/configureWindow.js:605
-#: src/preferences/devices/opoBuds/configureWindow.js:640
-#: src/preferences/devices/boseBuds/configureWindow.js:293
-#: src/preferences/devices/googleBuds/configureWindow.js:86
-msgid "Custom"
-msgstr "사용자 정의"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:260
-#: src/preferences/devices/opoBuds/configureWindow.js:333
-msgid "Classic"
+#: src/preferences/devices/soundcore/configureWindow.js:554
+msgid "Name"
 msgstr ""
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:261
-msgid "Audiophile"
-msgstr "오디오 애호가"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:262
-#: src/preferences/devices/boseBuds/configureWindow.js:278
-#: src/preferences/devices/googleBuds/configureWindow.js:81
-msgid "Bass Reducer"
+#: src/preferences/devices/soundcore/configureWindow.js:561
+#: src/preferences/devices/opoBuds/configureWindow.js:588
+msgid "Enter a name for the new custom equalizer profile"
 msgstr ""
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:263
-msgid "Harman EFX"
-msgstr ""
+#: src/preferences/devices/soundcore/configureWindow.js:564
+#: src/preferences/devices/opoBuds/configureWindow.js:594
+#: src/preferences/devices/opoBuds/configureWindow.js:642
+#: src/preferences/devices/opoBuds/configureWindow.js:674
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:239
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:282
+#: src/preferences/widgets/deviceMgmtRowWidget.js:254
+#: src/preferences/widgets/deviceMgmtRowWidget.js:274
+#: src/preferences/widgets/peqRowWidget.js:1117
+#: src/preferences/widgets/ringMyBudsRow.js:146
+#: src/preferences/widgets/earTipFitTestRow.js:199
+#: src/lib/widgets/settingsButton.js:304
+msgid "Cancel"
+msgstr "취소"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:264
-msgid "Harman Master"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:266
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:617
-msgid "Outdoor"
-msgstr "아웃도어"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:267
-msgid "Underwater"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:268
-#: src/preferences/devices/nothingBuds/configureWindow.js:210
-#: src/preferences/devices/opoBuds/configureWindow.js:325
-#: src/preferences/devices/googleBuds/configureWindow.js:82
-msgid "Balanced"
-msgstr "밸런스드"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:280
-#: src/preferences/devices/nothingBuds/configureWindow.js:232
-#: src/preferences/devices/senhBuds/configureWindow.js:284
-#: src/preferences/devices/opoBuds/configureWindow.js:353
-#: src/preferences/devices/boseBuds/configureWindow.js:299
-#: src/preferences/devices/sony/configureWindow.js:246
-#: src/preferences/devices/googleBuds/configureWindow.js:108
-msgid "Custom Equalizer"
-msgstr "사용자 정의 이퀄라이저"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:285
-#: src/preferences/devices/nothingBuds/configureWindow.js:237
-#: src/preferences/devices/nothingBuds/configureWindow.js:660
-#: src/preferences/devices/senhBuds/configureWindow.js:289
-#: src/preferences/devices/galaxyBuds/configureWindow.js:290
-#: src/preferences/devices/opoBuds/configureWindow.js:358
-#: src/preferences/devices/boseBuds/configureWindow.js:305
-#: src/preferences/devices/sony/configureWindow.js:239
-#: src/preferences/devices/googleBuds/configureWindow.js:102
-msgid "Equalizer Preset"
-msgstr "이퀄라이저 프리셋"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:286
-#: src/preferences/devices/nothingBuds/configureWindow.js:238
-#: src/preferences/devices/senhBuds/configureWindow.js:290
-#: src/preferences/devices/galaxyBuds/configureWindow.js:291
-#: src/preferences/devices/opoBuds/configureWindow.js:359
-#: src/preferences/devices/boseBuds/configureWindow.js:306
-#: src/preferences/devices/sony/configureWindow.js:240
-msgid "Change the sound signature"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:302
-msgid "62"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:302
-#: src/preferences/devices/senhBuds/configureWindow.js:302
-#: src/preferences/devices/sony/configureWindow.js:258
-msgid "125"
-msgstr "125"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:302
-#: src/preferences/devices/senhBuds/configureWindow.js:303
-#: src/preferences/devices/sony/configureWindow.js:258
-msgid "250"
-msgstr "250"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:302
-#: src/preferences/devices/senhBuds/configureWindow.js:305
-#: src/preferences/devices/sony/configureWindow.js:258
-msgid "500"
-msgstr "500"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:302
-#: src/preferences/devices/senhBuds/configureWindow.js:307
-#: src/preferences/devices/sony/configureWindow.js:257
-#: src/preferences/devices/sony/configureWindow.js:259
-msgid "1k"
-msgstr "1k"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:302
-#: src/preferences/devices/senhBuds/configureWindow.js:308
-#: src/preferences/devices/sony/configureWindow.js:259
-msgid "2k"
-msgstr "2k"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:302
-#: src/preferences/devices/senhBuds/configureWindow.js:311
-#: src/preferences/devices/sony/configureWindow.js:259
-msgid "4k"
-msgstr "4k"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:303
-#: src/preferences/devices/senhBuds/configureWindow.js:314
-#: src/preferences/devices/sony/configureWindow.js:259
-msgid "8k"
-msgstr "8k"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:303
-#: src/preferences/devices/senhBuds/configureWindow.js:315
-msgid "12k"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:303
-#: src/preferences/devices/senhBuds/configureWindow.js:316
-#: src/preferences/devices/sony/configureWindow.js:257
-#: src/preferences/devices/sony/configureWindow.js:259
-msgid "16k"
-msgstr "16k"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:312
-#: src/preferences/devices/senhBuds/configureWindow.js:333
-#: src/preferences/devices/sony/configureWindow.js:268
-msgid "Frequency (Hz)"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:313
-#: src/preferences/devices/nothingBuds/configureWindow.js:263
-#: src/preferences/devices/senhBuds/configureWindow.js:334
-#: src/preferences/devices/opoBuds/configureWindow.js:446
-#: src/preferences/devices/boseBuds/configureWindow.js:334
-#: src/preferences/devices/sony/configureWindow.js:269
-#: src/preferences/devices/googleBuds/configureWindow.js:139
-msgid "Gain (dB)"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:327
-#: src/preferences/devices/nothingBuds/configureWindow.js:326
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:176
-msgid "Immersive Audio"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:332
-#: src/preferences/devices/nothingBuds/configureWindow.js:330
-#: src/preferences/devices/nothingBuds/configureWindow.js:654
-#: src/preferences/devices/opoBuds/configureWindow.js:779
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:180
-#: src/preferences/devices/boseBuds/configureWindow.js:794
-#: src/lib/devices/boseBuds/boseBudsDevice.js:762
-msgid "Spatial Audio"
-msgstr "공간 음향"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:333
-#: src/preferences/devices/nothingBuds/configureWindow.js:331
-#: src/preferences/devices/opoBuds/configureWindow.js:780
-msgid "Add depth for a more immersive experience"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:347
-msgid "Track Head Movement"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:348
-msgid "Audio moves with your head"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:370
-msgid "Spatial Audio Scene"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:371
-msgid "Select the sound environment"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:397
-#: src/preferences/devices/nothingBuds/configureWindow.js:348
-#: src/preferences/devices/senhBuds/configureWindow.js:725
-#: src/preferences/devices/galaxyBuds/configureWindow.js:605
-#: src/preferences/devices/opoBuds/configureWindow.js:821
-#: src/preferences/devices/boseBuds/configureWindow.js:562
-msgid "Additional Settings"
-msgstr "추가 설정"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:403
-#: src/preferences/widgets/deviceMgmtRowWidget.js:460
-msgid "Allow Connections to Multiple Devices"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:417
-#: src/preferences/devices/senhBuds/configureWindow.js:589
-#: src/preferences/devices/opoBuds/configureWindow.js:945
-#: src/preferences/devices/boseBuds/configureWindow.js:401
-msgid "Answer Calls Automatically"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:418
-#: src/preferences/devices/senhBuds/configureWindow.js:590
-#: src/preferences/devices/opoBuds/configureWindow.js:946
-#: src/preferences/devices/boseBuds/configureWindow.js:402
-msgid "Answer calls when the earbuds are worn"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:432
-msgid "Adaptive Sound"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:433
-msgid "Automatically adjust sound to your ear shape"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:478
-#: src/preferences/devices/nothingBuds/configureWindow.js:404
-#: src/preferences/devices/galaxyBuds/configureWindow.js:525
-#: src/preferences/devices/sony/configureWindow.js:366
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:697
-#: src/lib/devices/sony/sonyDevice.js:184
-msgid "Ambient"
-msgstr "주변 소리"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:483
-#: src/preferences/devices/nothingBuds/configureWindow.js:414
-msgid "Noise Control Cycle: "
-msgstr "소음제어 모드 순서: "
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:505
-#: src/preferences/devices/nothingBuds/configureWindow.js:435
-#: src/preferences/devices/galaxyBuds/configureWindow.js:354
-#: src/preferences/devices/opoBuds/configureWindow.js:1070
-#: src/preferences/devices/opoBuds/configureWindow.js:1074
-#: src/preferences/devices/boseBuds/configureWindow.js:693
-msgid "Single Tap"
-msgstr "한 번 두드리기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:506
-#: src/preferences/devices/nothingBuds/configureWindow.js:436
-#: src/preferences/devices/galaxyBuds/configureWindow.js:367
-#: src/preferences/devices/opoBuds/configureWindow.js:1071
-#: src/preferences/devices/boseBuds/configureWindow.js:694
-msgid "Double Tap"
-msgstr "두 번 두드리기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:507
-#: src/preferences/devices/nothingBuds/configureWindow.js:437
-#: src/preferences/devices/galaxyBuds/configureWindow.js:380
-#: src/preferences/devices/opoBuds/configureWindow.js:1072
-#: src/preferences/devices/boseBuds/configureWindow.js:695
-msgid "Triple Tap"
-msgstr "세 번 두드리기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:508
-#: src/preferences/devices/nothingBuds/configureWindow.js:438
-msgid "Tap and Hold"
-msgstr "탭 후 길게 누르기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:510
-#: src/preferences/devices/nothingBuds/configureWindow.js:441
-#: src/preferences/devices/nothingBuds/configureWindow.js:456
-#: src/preferences/devices/opoBuds/configureWindow.js:1079
-#: src/preferences/devices/boseBuds/configureWindow.js:699
-msgid "Single Press"
-msgstr "한 번 누르기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:511
-#: src/preferences/devices/nothingBuds/configureWindow.js:442
-#: src/preferences/devices/nothingBuds/configureWindow.js:457
-#: src/preferences/devices/opoBuds/configureWindow.js:1080
-#: src/preferences/devices/boseBuds/configureWindow.js:700
-msgid "Double Press"
-msgstr "두 번 누르기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:512
-#: src/preferences/devices/nothingBuds/configureWindow.js:443
-#: src/preferences/devices/nothingBuds/configureWindow.js:458
-#: src/preferences/devices/opoBuds/configureWindow.js:1081
-#: src/preferences/devices/boseBuds/configureWindow.js:701
-msgid "Triple Press"
-msgstr "세 번 누르기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:513
-#: src/preferences/devices/nothingBuds/configureWindow.js:444
-#: src/preferences/devices/nothingBuds/configureWindow.js:453
-#: src/preferences/devices/nothingBuds/configureWindow.js:459
-#: src/preferences/devices/opoBuds/configureWindow.js:1082
-#: src/preferences/devices/boseBuds/configureWindow.js:702
-msgid "Press and Hold"
-msgstr "길게 누르기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:515
-#: src/preferences/devices/nothingBuds/configureWindow.js:447
-#: src/preferences/devices/boseBuds/configureWindow.js:705
-msgid "Single Pinch"
-msgstr "한 번 집기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:516
-#: src/preferences/devices/nothingBuds/configureWindow.js:448
-#: src/preferences/devices/boseBuds/configureWindow.js:706
-msgid "Double Pinch"
-msgstr "두 번 집기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:517
-#: src/preferences/devices/nothingBuds/configureWindow.js:449
-#: src/preferences/devices/boseBuds/configureWindow.js:707
-msgid "Triple Pinch"
-msgstr "세 번 집기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:518
-#: src/preferences/devices/nothingBuds/configureWindow.js:450
-#: src/preferences/devices/boseBuds/configureWindow.js:708
-msgid "Pinch and Hold"
-msgstr "집어서 길게 누르기"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:520
-msgid "Swipe"
-msgstr ""
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:524
-#: src/preferences/devices/nothingBuds/configureWindow.js:593
-#: src/preferences/devices/boseBuds/configureWindow.js:775
-msgid "Left Buds Gesture Control"
-msgstr "왼쪽 이어버드 제스처 조작"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:528
-#: src/preferences/devices/nothingBuds/configureWindow.js:596
-#: src/preferences/devices/boseBuds/configureWindow.js:778
-msgid "Right Buds Gesture Control"
-msgstr "오른쪽 이어버드 제스처 조작"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:595
-#: src/preferences/devices/nothingBuds/configureWindow.js:615
-#: src/preferences/devices/opoBuds/configureWindow.js:1058
+#: src/preferences/devices/soundcore/configureWindow.js:613
+#: src/preferences/devices/redmiBuds/configureWindow.js:607
+#: src/preferences/devices/nothingBuds/configureWindow.js:767
+#: src/preferences/devices/opoBuds/configureWindow.js:1166
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:214
 #: src/preferences/devices/boseBuds/configureWindow.js:818
 msgid "Play / Pause"
 msgstr "재생 / 일시정지"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:598
-#: src/preferences/devices/nothingBuds/configureWindow.js:618
-#: src/preferences/devices/opoBuds/configureWindow.js:1060
-#: src/preferences/devices/boseBuds/configureWindow.js:833
-msgid "Previous Track"
-msgstr "이전 트랙"
-
-#: src/preferences/devices/redmiBuds/configureWindow.js:601
-#: src/preferences/devices/nothingBuds/configureWindow.js:621
-#: src/preferences/devices/opoBuds/configureWindow.js:1059
+#: src/preferences/devices/soundcore/configureWindow.js:613
+#: src/preferences/devices/redmiBuds/configureWindow.js:613
+#: src/preferences/devices/nothingBuds/configureWindow.js:773
+#: src/preferences/devices/opoBuds/configureWindow.js:1167
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:214
 #: src/preferences/devices/boseBuds/configureWindow.js:836
 msgid "Next Track"
 msgstr "다음 트랙"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:604
-#: src/preferences/devices/nothingBuds/configureWindow.js:624
-#: src/preferences/devices/galaxyBuds/configureWindow.js:463
-#: src/preferences/devices/opoBuds/configureWindow.js:1063
-#: src/preferences/devices/boseBuds/configureWindow.js:803
-#: src/preferences/devices/boseBuds/configureWindow.js:809
-msgid "Voice Assistant"
-msgstr "음성 비서"
+#: src/preferences/devices/soundcore/configureWindow.js:613
+#: src/preferences/devices/redmiBuds/configureWindow.js:610
+#: src/preferences/devices/nothingBuds/configureWindow.js:770
+#: src/preferences/devices/opoBuds/configureWindow.js:1168
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:214
+#: src/preferences/devices/boseBuds/configureWindow.js:833
+msgid "Previous Track"
+msgstr "이전 트랙"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:607
-#: src/preferences/devices/nothingBuds/configureWindow.js:627
-#: src/preferences/devices/opoBuds/configureWindow.js:1061
+#: src/preferences/devices/soundcore/configureWindow.js:613
+#: src/preferences/devices/redmiBuds/configureWindow.js:619
+#: src/preferences/devices/nothingBuds/configureWindow.js:779
+#: src/preferences/devices/opoBuds/configureWindow.js:1169
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:214
 msgid "Volume Up"
 msgstr "음량 키우기"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:610
-#: src/preferences/devices/nothingBuds/configureWindow.js:630
-#: src/preferences/devices/opoBuds/configureWindow.js:1062
+#: src/preferences/devices/soundcore/configureWindow.js:614
+#: src/preferences/devices/redmiBuds/configureWindow.js:622
+#: src/preferences/devices/nothingBuds/configureWindow.js:782
+#: src/preferences/devices/opoBuds/configureWindow.js:1170
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:215
 msgid "Volume Down"
 msgstr "음량 줄이기"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:613
-#: src/preferences/devices/nothingBuds/configureWindow.js:636
+#: src/preferences/devices/soundcore/configureWindow.js:614
+#: src/preferences/devices/redmiBuds/configureWindow.js:625
+#: src/preferences/devices/nothingBuds/configureWindow.js:788
 #: src/preferences/devices/galaxyBuds/configureWindow.js:468
-#: src/preferences/devices/opoBuds/configureWindow.js:1064
+#: src/preferences/devices/opoBuds/configureWindow.js:1172
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:215
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:99
 #: src/preferences/devices/boseBuds/configureWindow.js:812
 #: src/lib/devices/edifierBuds/edifierBudsDevice.js:277
 #: src/lib/devices/airpods/airpodsDevice.js:174
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:584
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:363
+#: src/lib/devices/soundcore/soundcoreDevice.js:271
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:588
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:425
 #: src/lib/devices/senhBuds/senhBudsDevice.js:548
 #: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:592
 #: src/lib/devices/gfps/gfpsDevice.js:168
-#: src/lib/devices/opoBuds/opoBudsDevice.js:515
+#: src/lib/devices/opoBuds/opoBudsDevice.js:539
+#: src/lib/devices/cambridgeBuds/cambridgeBudsDevice.js:306
 #: src/lib/devices/boseBuds/boseBudsDevice.js:677
 #: src/lib/devices/boseBuds/boseBudsDevice.js:752
 #: src/lib/devices/boseBuds/boseBudsDevice.js:754
@@ -832,92 +930,470 @@ msgstr "음량 줄이기"
 msgid "Noise Control"
 msgstr "소음 제어"
 
+#: src/preferences/devices/soundcore/configureWindow.js:614
 #: src/preferences/devices/redmiBuds/configureWindow.js:616
-#: src/preferences/devices/nothingBuds/configureWindow.js:642
-#: src/preferences/devices/opoBuds/configureWindow.js:1057
+#: src/preferences/devices/nothingBuds/configureWindow.js:776
+#: src/preferences/devices/galaxyBuds/configureWindow.js:463
+#: src/preferences/devices/opoBuds/configureWindow.js:1171
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:215
+#: src/preferences/devices/boseBuds/configureWindow.js:803
+#: src/preferences/devices/boseBuds/configureWindow.js:809
+msgid "Voice Assistant"
+msgstr "음성 비서"
+
+#: src/preferences/devices/soundcore/configureWindow.js:614
+#: src/preferences/devices/redmiBuds/configureWindow.js:628
+#: src/preferences/devices/nothingBuds/configureWindow.js:794
+#: src/preferences/devices/opoBuds/configureWindow.js:1165
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:215
 #: src/preferences/devices/boseBuds/configureWindow.js:788
 msgid "No Action"
 msgstr "동작 없음"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:619
-#: src/preferences/devices/nothingBuds/configureWindow.js:645
+#: src/preferences/devices/soundcore/configureWindow.js:615
+#: src/preferences/devices/redmiBuds/configureWindow.js:263
+#: src/preferences/devices/nothingBuds/configureWindow.js:260
+#: src/preferences/devices/senhBuds/configureWindow.js:278
+#: src/preferences/devices/opoBuds/configureWindow.js:361
+#: src/preferences/devices/opoBuds/configureWindow.js:432
+#: src/preferences/devices/opoBuds/configureWindow.js:475
+#: src/preferences/devices/opoBuds/configureWindow.js:534
+#: src/preferences/devices/opoBuds/configureWindow.js:591
+#: src/preferences/devices/opoBuds/configureWindow.js:636
+#: src/preferences/devices/opoBuds/configureWindow.js:671
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:88
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:216
+#: src/preferences/devices/boseBuds/configureWindow.js:293
+#: src/preferences/devices/googleBuds/configureWindow.js:86
+msgid "Custom"
+msgstr "사용자 정의"
+
+#: src/preferences/devices/soundcore/configureWindow.js:618
+#: src/preferences/devices/redmiBuds/configureWindow.js:517
+#: src/preferences/devices/nothingBuds/configureWindow.js:585
+#: src/preferences/devices/galaxyBuds/configureWindow.js:354
+#: src/preferences/devices/opoBuds/configureWindow.js:1182
+#: src/preferences/devices/opoBuds/configureWindow.js:1186
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:219
+#: src/preferences/devices/boseBuds/configureWindow.js:693
+msgid "Single Tap"
+msgstr "한 번 두드리기"
+
+#: src/preferences/devices/soundcore/configureWindow.js:619
+#: src/preferences/devices/redmiBuds/configureWindow.js:518
+#: src/preferences/devices/nothingBuds/configureWindow.js:586
+#: src/preferences/devices/galaxyBuds/configureWindow.js:367
+#: src/preferences/devices/opoBuds/configureWindow.js:1183
+#: src/preferences/devices/opoBuds/configureWindow.js:1188
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:220
+#: src/preferences/devices/boseBuds/configureWindow.js:694
+msgid "Double Tap"
+msgstr "두 번 두드리기"
+
+#: src/preferences/devices/soundcore/configureWindow.js:620
+#: src/preferences/devices/redmiBuds/configureWindow.js:519
+#: src/preferences/devices/nothingBuds/configureWindow.js:587
+#: src/preferences/devices/galaxyBuds/configureWindow.js:380
+#: src/preferences/devices/opoBuds/configureWindow.js:1184
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:221
+#: src/preferences/devices/boseBuds/configureWindow.js:695
+msgid "Triple Tap"
+msgstr "세 번 두드리기"
+
+#: src/preferences/devices/soundcore/configureWindow.js:621
+#: src/preferences/devices/redmiBuds/configureWindow.js:525
+#: src/preferences/devices/nothingBuds/configureWindow.js:595
+#: src/preferences/devices/nothingBuds/configureWindow.js:606
+#: src/preferences/devices/nothingBuds/configureWindow.js:612
+#: src/preferences/devices/opoBuds/configureWindow.js:1196
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:222
+#: src/preferences/devices/boseBuds/configureWindow.js:702
+msgid "Press and Hold"
+msgstr "길게 누르기"
+
+#: src/preferences/devices/soundcore/configureWindow.js:624
+#: src/preferences/devices/nothingBuds/configureWindow.js:745
+#: src/preferences/devices/opoBuds/configureWindow.js:1361
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:225
+msgid "Left Earbud"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:624
+#: src/preferences/devices/nothingBuds/configureWindow.js:748
+#: src/preferences/devices/opoBuds/configureWindow.js:1363
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:225
+msgid "Right Earbud"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:625
+#: src/preferences/devices/opoBuds/configureWindow.js:1369
+msgid "Button Controls"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:636
+#: src/preferences/devices/opoBuds/configureWindow.js:1279
+msgid "Noise Control Button Cycling"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:659
+msgid "Cycle through modes"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:660
+msgid "Select at least two modes to cycle through"
+msgstr ""
+
+#: src/preferences/devices/soundcore/configureWindow.js:681
+#: src/preferences/devices/nothingBuds/configureWindow.js:494
+#: src/preferences/devices/senhBuds/configureWindow.js:747
+#: src/preferences/devices/boseBuds/configureWindow.js:514
+#: src/preferences/devices/sony/configureWindow.js:612
+msgid "Connection Management"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:232
+#: src/preferences/devices/galaxyBuds/configureWindow.js:122
+msgid "Choose Playback Behavior for Ear Detection"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:252
+#: src/preferences/devices/senhBuds/configureWindow.js:223
+#: src/preferences/devices/galaxyBuds/configureWindow.js:267
+#: src/preferences/devices/opoBuds/configureWindow.js:347
+#: src/preferences/devices/sony/configureWindow.js:206
+#: src/preferences/devices/googleBuds/configureWindow.js:66
+msgid "Equalizer"
+msgstr "이퀄라이저"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:258
+#: src/preferences/devices/redmiBuds/configureWindow.js:269
+#: src/preferences/devices/redmiBuds/configureWindow.js:372
+#: src/preferences/devices/sony/configureWindow.js:127
+#: src/preferences/devices/sony/configureWindow.js:151
+#: src/lib/devices/sony/sonyDevice.js:197
+msgid "Standard"
+msgstr "표준"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:259
+msgctxt "Redmi equalizer preset"
+msgid "Vocals"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:262
+msgid "Volume Boost"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:264
+#: src/preferences/devices/opoBuds/configureWindow.js:360
+msgid "Classic"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:265
+msgid "Audiophile"
+msgstr "오디오 애호가"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:267
+msgid "Harman EFX"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:268
+msgid "Harman Master"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:270
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:617
+msgid "Outdoor"
+msgstr "아웃도어"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:271
+msgid "Underwater"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:272
+#: src/preferences/devices/nothingBuds/configureWindow.js:250
+#: src/preferences/devices/opoBuds/configureWindow.js:351
+#: src/preferences/devices/googleBuds/configureWindow.js:82
+msgid "Balanced"
+msgstr "밸런스드"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:306
+msgid "62"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:306
+#: src/preferences/devices/senhBuds/configureWindow.js:302
+#: src/preferences/devices/sony/configureWindow.js:258
+msgid "125"
+msgstr "125"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:306
+#: src/preferences/devices/senhBuds/configureWindow.js:303
+#: src/preferences/devices/sony/configureWindow.js:258
+msgid "250"
+msgstr "250"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:306
+#: src/preferences/devices/senhBuds/configureWindow.js:305
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:121
+#: src/preferences/devices/sony/configureWindow.js:258
+msgid "500"
+msgstr "500"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:306
+#: src/preferences/devices/senhBuds/configureWindow.js:307
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:122
+#: src/preferences/devices/sony/configureWindow.js:257
+#: src/preferences/devices/sony/configureWindow.js:259
+msgid "1k"
+msgstr "1k"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:306
+#: src/preferences/devices/senhBuds/configureWindow.js:308
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:123
+#: src/preferences/devices/sony/configureWindow.js:259
+msgid "2k"
+msgstr "2k"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:306
+#: src/preferences/devices/senhBuds/configureWindow.js:311
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:124
+#: src/preferences/devices/sony/configureWindow.js:259
+msgid "4k"
+msgstr "4k"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:307
+#: src/preferences/devices/senhBuds/configureWindow.js:314
+#: src/preferences/devices/sony/configureWindow.js:259
+msgid "8k"
+msgstr "8k"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:307
+#: src/preferences/devices/senhBuds/configureWindow.js:315
+msgid "12k"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:307
+#: src/preferences/devices/senhBuds/configureWindow.js:316
+#: src/preferences/devices/sony/configureWindow.js:257
+#: src/preferences/devices/sony/configureWindow.js:259
+msgid "16k"
+msgstr "16k"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:331
+#: src/preferences/devices/nothingBuds/configureWindow.js:366
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:176
+msgid "Immersive Audio"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:337
+#: src/preferences/devices/nothingBuds/configureWindow.js:371
+#: src/preferences/devices/opoBuds/configureWindow.js:873
+msgid "Add depth for a more immersive experience"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:351
+msgid "Track Head Movement"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:352
+msgid "Audio moves with your head"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:373
+#: src/preferences/devices/boseBuds/modesGroupWidget.js:616
+msgid "Music"
+msgstr "음악"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:374
+msgid "Video"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:375
+msgid "Game"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:376
+msgid "Audiobooks"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:382
+msgid "Spatial Audio Scene"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:383
+msgid "Select the sound environment"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:407
+#: src/preferences/devices/nothingBuds/configureWindow.js:388
+#: src/preferences/devices/senhBuds/configureWindow.js:725
+#: src/preferences/devices/galaxyBuds/configureWindow.js:605
+#: src/preferences/devices/opoBuds/configureWindow.js:914
+#: src/preferences/devices/boseBuds/configureWindow.js:562
+msgid "Additional Settings"
+msgstr "추가 설정"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:414
+msgctxt "Redmi connection setting"
+msgid "Allow Connections to Multiple Devices"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:428
+#: src/preferences/devices/senhBuds/configureWindow.js:589
+#: src/preferences/devices/opoBuds/configureWindow.js:1038
+#: src/preferences/devices/boseBuds/configureWindow.js:401
+msgid "Answer Calls Automatically"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:429
+#: src/preferences/devices/senhBuds/configureWindow.js:590
+#: src/preferences/devices/opoBuds/configureWindow.js:1039
+#: src/preferences/devices/boseBuds/configureWindow.js:402
+msgid "Answer calls when the earbuds are worn"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:443
+msgid "Adaptive Sound"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:444
+msgid "Automatically adjust sound to your ear shape"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:489
+msgctxt "Redmi listening mode"
+msgid "Ambient"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:495
+#: src/preferences/devices/nothingBuds/configureWindow.js:559
+msgid "Noise Control Cycle: "
+msgstr "소음제어 모드 순서: "
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:520
+#: src/preferences/devices/nothingBuds/configureWindow.js:588
+msgid "Tap and Hold"
+msgstr "탭 후 길게 누르기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:522
+#: src/preferences/devices/nothingBuds/configureWindow.js:592
+#: src/preferences/devices/nothingBuds/configureWindow.js:609
+#: src/preferences/devices/opoBuds/configureWindow.js:1193
+#: src/preferences/devices/boseBuds/configureWindow.js:699
+msgid "Single Press"
+msgstr "한 번 누르기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:523
+#: src/preferences/devices/nothingBuds/configureWindow.js:593
+#: src/preferences/devices/nothingBuds/configureWindow.js:610
+#: src/preferences/devices/opoBuds/configureWindow.js:1194
+#: src/preferences/devices/opoBuds/configureWindow.js:1198
+#: src/preferences/devices/boseBuds/configureWindow.js:700
+msgid "Double Press"
+msgstr "두 번 누르기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:524
+#: src/preferences/devices/nothingBuds/configureWindow.js:594
+#: src/preferences/devices/nothingBuds/configureWindow.js:611
+#: src/preferences/devices/opoBuds/configureWindow.js:1195
+#: src/preferences/devices/boseBuds/configureWindow.js:701
+msgid "Triple Press"
+msgstr "세 번 누르기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:527
+#: src/preferences/devices/nothingBuds/configureWindow.js:599
+#: src/preferences/devices/boseBuds/configureWindow.js:705
+msgid "Single Pinch"
+msgstr "한 번 집기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:528
+#: src/preferences/devices/nothingBuds/configureWindow.js:600
+#: src/preferences/devices/boseBuds/configureWindow.js:706
+msgid "Double Pinch"
+msgstr "두 번 집기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:529
+#: src/preferences/devices/nothingBuds/configureWindow.js:601
+#: src/preferences/devices/boseBuds/configureWindow.js:707
+msgid "Triple Pinch"
+msgstr "세 번 집기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:530
+#: src/preferences/devices/nothingBuds/configureWindow.js:602
+#: src/preferences/devices/boseBuds/configureWindow.js:708
+msgid "Pinch and Hold"
+msgstr "집어서 길게 누르기"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:532
+#: src/preferences/devices/opoBuds/configureWindow.js:1203
+msgid "Swipe"
+msgstr ""
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:536
+#: src/preferences/devices/boseBuds/configureWindow.js:775
+msgid "Left Buds Gesture Control"
+msgstr "왼쪽 이어버드 제스처 조작"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:540
+#: src/preferences/devices/boseBuds/configureWindow.js:778
+msgid "Right Buds Gesture Control"
+msgstr "오른쪽 이어버드 제스처 조작"
+
+#: src/preferences/devices/redmiBuds/configureWindow.js:631
+#: src/preferences/devices/nothingBuds/configureWindow.js:797
 msgid "Change Volume"
 msgstr "볼륨 변경"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:622
-#: src/preferences/devices/nothingBuds/configureWindow.js:672
+#: src/preferences/devices/redmiBuds/configureWindow.js:634
+#: src/preferences/devices/nothingBuds/configureWindow.js:824
 msgid "Toggle Low Latency"
 msgstr "저지연 모드 전환"
 
-#: src/preferences/devices/redmiBuds/configureWindow.js:625
-#: src/preferences/devices/nothingBuds/configureWindow.js:678
+#: src/preferences/devices/redmiBuds/configureWindow.js:637
+#: src/preferences/devices/nothingBuds/configureWindow.js:830
 msgid "Take Photo"
 msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:204
-#: src/preferences/devices/senhBuds/configureWindow.js:215
-#: src/preferences/devices/boseBuds/configureWindow.js:267
-msgid "Sound Settings"
+#: src/preferences/devices/nothingBuds/configureWindow.js:251
+#: src/preferences/devices/sony/configureWindow.js:214
+msgid "Vocals"
 msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:214
+#: src/preferences/devices/nothingBuds/configureWindow.js:254
 msgid "Dirac"
 msgstr "Dirac"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:215
-#: src/preferences/devices/senhBuds/configureWindow.js:259
-#: src/preferences/devices/opoBuds/configureWindow.js:330
-msgid "Rock"
-msgstr "록"
-
-#: src/preferences/devices/nothingBuds/configureWindow.js:216
-#: src/preferences/devices/opoBuds/configureWindow.js:332
-msgid "Electronic"
-msgstr "일렉트로닉"
-
-#: src/preferences/devices/nothingBuds/configureWindow.js:217
-#: src/preferences/devices/senhBuds/configureWindow.js:260
-#: src/preferences/devices/opoBuds/configureWindow.js:331
-msgid "Pop"
-msgstr "팝"
-
-#: src/preferences/devices/nothingBuds/configureWindow.js:218
+#: src/preferences/devices/nothingBuds/configureWindow.js:258
 #: src/preferences/devices/googleBuds/configureWindow.js:83
 msgid "Vocal Boost"
 msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:219
-#: src/preferences/devices/senhBuds/configureWindow.js:263
-msgid "Classical"
-msgstr "클래식"
-
-#: src/preferences/devices/nothingBuds/configureWindow.js:254
-#: src/preferences/devices/nothingBuds/configureWindow.js:666
+#: src/preferences/devices/nothingBuds/configureWindow.js:294
+#: src/preferences/devices/nothingBuds/configureWindow.js:818
+#: src/preferences/devices/opoBuds/configureWindow.js:352
 #: src/preferences/devices/boseBuds/configureWindow.js:316
 #: src/preferences/devices/sony/configureWindow.js:257
 #: src/preferences/devices/googleBuds/configureWindow.js:128
 msgid "Bass"
 msgstr "저음"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:254
+#: src/preferences/devices/nothingBuds/configureWindow.js:294
 #: src/preferences/devices/boseBuds/configureWindow.js:317
 #: src/preferences/devices/googleBuds/configureWindow.js:129
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:651
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:397
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:655
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:459
 #: src/lib/devices/opoBuds/opoBudsDevice.js:571
-#: src/lib/devices/opoBuds/opoBudsDevice.js:572
-#: src/lib/devices/opoBuds/opoBudsDevice.js:918
 msgid "Mid"
 msgstr "중음"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:254
-#: src/preferences/devices/nothingBuds/configureWindow.js:669
+#: src/preferences/devices/nothingBuds/configureWindow.js:294
+#: src/preferences/devices/nothingBuds/configureWindow.js:821
 #: src/preferences/devices/boseBuds/configureWindow.js:318
 #: src/preferences/devices/googleBuds/configureWindow.js:130
 msgid "Treble"
 msgstr "고음"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:262
+#: src/preferences/devices/nothingBuds/configureWindow.js:302
 #: src/preferences/devices/boseBuds/configureWindow.js:333
 #: src/preferences/devices/googleBuds/configureWindow.js:138
 #: src/preferences/widgets/peqRowWidget.js:980
@@ -925,104 +1401,129 @@ msgstr "고음"
 msgid "Band"
 msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:280
+#: src/preferences/devices/nothingBuds/configureWindow.js:320
 #: src/preferences/devices/senhBuds/configureWindow.js:362
+#: src/preferences/devices/opoBuds/configureWindow.js:810
 msgid "Bass Enhancement"
 msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:281
+#: src/preferences/devices/nothingBuds/configureWindow.js:321
 #: src/preferences/devices/senhBuds/configureWindow.js:363
+#: src/preferences/devices/opoBuds/configureWindow.js:811
 msgid "Enhances bass in real time"
 msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:293
+#: src/preferences/devices/nothingBuds/configureWindow.js:333
+#: src/preferences/devices/opoBuds/configureWindow.js:839
 msgid "Bass Enhancement Level"
 msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:296
+#: src/preferences/devices/nothingBuds/configureWindow.js:336
 msgid "-"
 msgstr "-"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:300
+#: src/preferences/devices/nothingBuds/configureWindow.js:340
 msgid "+"
 msgstr "+"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:439
-#: src/preferences/devices/opoBuds/configureWindow.js:1075
+#: src/preferences/devices/nothingBuds/configureWindow.js:549
+#: src/preferences/devices/galaxyBuds/configureWindow.js:525
+#: src/preferences/devices/sony/configureWindow.js:366
+#: src/lib/devices/sony/sonyDevice.js:184
+msgid "Ambient"
+msgstr "주변 소리"
+
+#: src/preferences/devices/nothingBuds/configureWindow.js:581
+#: src/preferences/devices/opoBuds/configureWindow.js:1161
+msgid "Customize actions for buttons and touch gestures"
+msgstr ""
+
+#: src/preferences/devices/nothingBuds/configureWindow.js:589
+#: src/preferences/devices/opoBuds/configureWindow.js:1187
 #: src/preferences/devices/boseBuds/configureWindow.js:697
 msgid "Double Tap and Hold"
 msgstr "두 번 탭 후 길게 누르기"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:445
-#: src/preferences/devices/nothingBuds/configureWindow.js:460
-#: src/preferences/devices/opoBuds/configureWindow.js:1083
+#: src/preferences/devices/nothingBuds/configureWindow.js:590
+msgid "Tap Both Buds"
+msgstr ""
+
+#: src/preferences/devices/nothingBuds/configureWindow.js:596
+#: src/preferences/devices/nothingBuds/configureWindow.js:613
+#: src/preferences/devices/opoBuds/configureWindow.js:1197
 #: src/preferences/devices/boseBuds/configureWindow.js:703
 msgid "Double Press and Hold"
 msgstr "두 번 누른 후 길게 누르기"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:451
+#: src/preferences/devices/nothingBuds/configureWindow.js:597
+msgid "Press Both Buds"
+msgstr ""
+
+#: src/preferences/devices/nothingBuds/configureWindow.js:603
 #: src/preferences/devices/boseBuds/configureWindow.js:709
 msgid "Double Pinch and Hold"
 msgstr "두 번 집은 후 길게 누르기"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:454
+#: src/preferences/devices/nothingBuds/configureWindow.js:604
+msgid "Pinch Both Buds"
+msgstr ""
+
+#: src/preferences/devices/nothingBuds/configureWindow.js:607
 msgid "Slide to Adjust"
 msgstr "밀어서 조작"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:461
+#: src/preferences/devices/nothingBuds/configureWindow.js:614
 msgid "Rotate"
 msgstr "회전"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:484
+#: src/preferences/devices/nothingBuds/configureWindow.js:633
 msgid "Unknown Gesture"
 msgstr "알 수 없는 제스처"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:590
-#: src/preferences/devices/nothingBuds/configureWindow.js:608
-#: src/preferences/devices/boseBuds/configureWindow.js:772
-#: src/preferences/devices/boseBuds/configureWindow.js:781
-msgid "Gesture Controls"
-msgstr "제스처 조작"
+#: src/preferences/devices/nothingBuds/configureWindow.js:707
+#: src/preferences/devices/opoBuds/configureWindow.js:1215
+msgid "Configure controls"
+msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:599
-msgid "Roller Gesture Control"
-msgstr "롤러 제스처 조작"
+#: src/preferences/devices/nothingBuds/configureWindow.js:751
+msgid "Roller Controls"
+msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:602
-msgid "Case Gesture Control"
-msgstr "케이스 제스처 조작"
+#: src/preferences/devices/nothingBuds/configureWindow.js:754
+msgid "Charging Case"
+msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:605
-msgid "Slider Gesture Control"
-msgstr "슬라이더 제스처 조작"
+#: src/preferences/devices/nothingBuds/configureWindow.js:757
+msgid "Slider Controls"
+msgstr ""
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:639
-msgid "ANC Type"
-msgstr "ANC 유형"
-
-#: src/preferences/devices/nothingBuds/configureWindow.js:648
+#: src/preferences/devices/nothingBuds/configureWindow.js:800
 msgid "Channel Hop"
 msgstr "채널 이동"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:651
+#: src/preferences/devices/nothingBuds/configureWindow.js:803
 msgid "New Reporter"
 msgstr "뉴 리포터"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:657
+#: src/preferences/devices/nothingBuds/configureWindow.js:809
 msgid "Mic On/Off"
 msgstr "마이크 켬/끔"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:663
+#: src/preferences/devices/nothingBuds/configureWindow.js:815
 msgid "Walkie-Talkie"
 msgstr "워키토키"
 
-#: src/preferences/devices/nothingBuds/configureWindow.js:675
+#: src/preferences/devices/nothingBuds/configureWindow.js:827
 msgid "Essential Space"
 msgstr "에센셜 스페이스"
 
-#: src/preferences/devices/senhBuds/configureWindow.js:224
-msgid "Podcast"
-msgstr "팟캐스트"
+#: src/preferences/devices/nothingBuds/configureWindow.js:833
+msgid "Start / Stop Recording"
+msgstr ""
+
+#: src/preferences/devices/nothingBuds/configureWindow.js:836
+msgid "Mute / Unmute Mic"
+msgstr ""
 
 #: src/preferences/devices/senhBuds/configureWindow.js:225
 msgid "Sound personalization"
@@ -1042,27 +1543,9 @@ msgstr ""
 msgid "Customize your listening experience"
 msgstr ""
 
-#: src/preferences/devices/senhBuds/configureWindow.js:258
-#: src/preferences/devices/boseBuds/configureWindow.js:276
-msgid "Flat"
-msgstr ""
-
-#: src/preferences/devices/senhBuds/configureWindow.js:261
-#, fuzzy
-msgid "Dance"
-msgstr "댄스"
-
-#: src/preferences/devices/senhBuds/configureWindow.js:262
-msgid "Hip Hop"
-msgstr ""
-
 #: src/preferences/devices/senhBuds/configureWindow.js:264
 msgid "Movie"
 msgstr ""
-
-#: src/preferences/devices/senhBuds/configureWindow.js:265
-msgid "Jazz"
-msgstr "재즈"
 
 #: src/preferences/devices/senhBuds/configureWindow.js:300
 msgid "50"
@@ -1103,11 +1586,9 @@ msgstr ""
 #: src/preferences/devices/senhBuds/configureWindow.js:439
 #: src/preferences/devices/boseBuds/configureWindow.js:487
 #: src/preferences/devices/sony/configureWindow.js:111
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:650
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:396
-#: src/lib/devices/opoBuds/opoBudsDevice.js:569
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:654
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:458
 #: src/lib/devices/opoBuds/opoBudsDevice.js:570
-#: src/lib/devices/opoBuds/opoBudsDevice.js:917
 #: src/lib/devices/boseBuds/boseBudsDevice.js:682
 #: src/lib/devices/sony/sonyDevice.js:197
 msgid "Low"
@@ -1116,11 +1597,9 @@ msgstr "낮음"
 #: src/preferences/devices/senhBuds/configureWindow.js:440
 #: src/preferences/devices/boseBuds/configureWindow.js:489
 #: src/preferences/devices/sony/configureWindow.js:111
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:652
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:398
-#: src/lib/devices/opoBuds/opoBudsDevice.js:573
-#: src/lib/devices/opoBuds/opoBudsDevice.js:574
-#: src/lib/devices/opoBuds/opoBudsDevice.js:919
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:656
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:460
+#: src/lib/devices/opoBuds/opoBudsDevice.js:572
 #: src/lib/devices/boseBuds/boseBudsDevice.js:683
 #: src/lib/devices/sony/sonyDevice.js:197
 msgid "High"
@@ -1150,7 +1629,8 @@ msgid "On Head Detection"
 msgstr ""
 
 #: src/preferences/devices/senhBuds/configureWindow.js:576
-#: src/preferences/devices/opoBuds/configureWindow.js:843
+#: src/preferences/devices/opoBuds/configureWindow.js:936
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:187
 #: src/preferences/devices/boseBuds/configureWindow.js:388
 msgid "Pause Media When Not Worn"
 msgstr ""
@@ -1160,32 +1640,12 @@ msgstr ""
 msgid "Playback controlled by the OEM app"
 msgstr ""
 
-#: src/preferences/devices/senhBuds/configureWindow.js:602
-#: src/preferences/devices/boseBuds/configureWindow.js:567
-msgid "Never"
-msgstr ""
-
 #: src/preferences/devices/senhBuds/configureWindow.js:603
 msgid "After 15 minutes"
 msgstr "15분 후"
 
-#: src/preferences/devices/senhBuds/configureWindow.js:604
-#: src/preferences/devices/sony/configureWindow.js:477
-msgid "After 30 minutes"
-msgstr "30분 후"
-
-#: src/preferences/devices/senhBuds/configureWindow.js:605
-#: src/preferences/devices/boseBuds/configureWindow.js:571
-#: src/preferences/devices/sony/configureWindow.js:478
-msgid "After 1 hour"
-msgstr "1시간 후"
-
-#: src/preferences/devices/senhBuds/configureWindow.js:613
-#: src/preferences/devices/sony/configureWindow.js:460
-msgid "Automatic Power Off"
-msgstr ""
-
 #: src/preferences/devices/senhBuds/configureWindow.js:614
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:205
 #: src/preferences/devices/boseBuds/configureWindow.js:581
 #: src/preferences/devices/sony/configureWindow.js:461
 msgid "Automatically power off when not worn"
@@ -1233,12 +1693,6 @@ msgstr ""
 msgid "Automatically pause media when transparency mode is enabled"
 msgstr ""
 
-#: src/preferences/devices/senhBuds/configureWindow.js:747
-#: src/preferences/devices/boseBuds/configureWindow.js:514
-#: src/preferences/devices/sony/configureWindow.js:612
-msgid "Connection Management"
-msgstr ""
-
 #: src/preferences/devices/galaxyBuds/configureWindow.js:246
 msgid "Voice detection"
 msgstr "음성 감지"
@@ -1246,10 +1700,6 @@ msgstr "음성 감지"
 #: src/preferences/devices/galaxyBuds/configureWindow.js:249
 msgid "5 seconds"
 msgstr "5초"
-
-#: src/preferences/devices/galaxyBuds/configureWindow.js:249
-msgid "10 seconds"
-msgstr "10초"
 
 #: src/preferences/devices/galaxyBuds/configureWindow.js:249
 msgid "15 seconds"
@@ -1285,7 +1735,7 @@ msgid "Center"
 msgstr "중앙"
 
 #: src/preferences/devices/galaxyBuds/configureWindow.js:313
-#: src/preferences/widgets/earTipFitTestRow.js:121
+#: src/preferences/widgets/earTipFitTestRow.js:122
 msgid "Right"
 msgstr "오른쪽"
 
@@ -1302,7 +1752,7 @@ msgid "Enable Touch Controls "
 msgstr "터치 조작 활성화 "
 
 #: src/preferences/devices/galaxyBuds/configureWindow.js:393
-#: src/preferences/devices/opoBuds/configureWindow.js:1073
+#: src/preferences/devices/opoBuds/configureWindow.js:1185
 #: src/preferences/devices/boseBuds/configureWindow.js:696
 msgid "Touch and Hold"
 msgstr "터치 후 길게 누르기"
@@ -1326,11 +1776,6 @@ msgstr "터치 후 길게 눌러 전화 거절"
 #: src/preferences/devices/galaxyBuds/configureWindow.js:464
 msgid "Quick Ambient Sound"
 msgstr "빠른 주변음"
-
-#: src/preferences/devices/galaxyBuds/configureWindow.js:466
-#: src/lib/devices/edifierBuds/edifierBudsDevice.js:284
-msgid "Ambient Sound"
-msgstr "주변음"
 
 #: src/preferences/devices/galaxyBuds/configureWindow.js:467
 #: src/preferences/devices/boseBuds/configureWindow.js:800
@@ -1425,191 +1870,296 @@ msgstr "오른쪽 주변음 볼륨"
 msgid "Ambient Sound Tone"
 msgstr "주변음 톤"
 
-#: src/preferences/devices/opoBuds/configureWindow.js:326
+#: src/preferences/devices/opoBuds/configureWindow.js:353
 msgid "Deep Bass"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:327
-#: src/preferences/devices/opoBuds/configureWindow.js:329
+#: src/preferences/devices/opoBuds/configureWindow.js:354
+#: src/preferences/devices/opoBuds/configureWindow.js:356
 msgid "Vocal"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:328
+#: src/preferences/devices/opoBuds/configureWindow.js:355
 msgid "Clear Bass"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:471
-#: src/preferences/devices/opoBuds/configureWindow.js:479
-#: src/preferences/devices/opoBuds/configureWindow.js:556
+#: src/preferences/devices/opoBuds/configureWindow.js:501
+#: src/preferences/devices/opoBuds/configureWindow.js:509
+#: src/preferences/devices/opoBuds/configureWindow.js:587
 msgid "Add Custom Preset"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:472
+#: src/preferences/devices/opoBuds/configureWindow.js:502
 msgid "Create a new custom equalizer profile"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:505
+#: src/preferences/devices/opoBuds/configureWindow.js:535
 msgid "Currently active"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:512
+#: src/preferences/devices/opoBuds/configureWindow.js:543
 msgid "Adjust Equalizer"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:522
+#: src/preferences/devices/opoBuds/configureWindow.js:553
 msgid "Rename Preset"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:531
+#: src/preferences/devices/opoBuds/configureWindow.js:562
 msgid "Delete Preset"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:557
-msgid "Enter a name for the new custom equalizer profile"
-msgstr ""
-
-#: src/preferences/devices/opoBuds/configureWindow.js:563
-#: src/preferences/devices/opoBuds/configureWindow.js:611
-#: src/preferences/devices/opoBuds/configureWindow.js:643
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:239
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:282
-#: src/preferences/widgets/deviceMgmtRowWidget.js:328
-#: src/preferences/widgets/peqRowWidget.js:1117
-#: src/preferences/widgets/ringMyBudsRow.js:146
-#: src/lib/widgets/settingsButton.js:304
-msgid "Cancel"
-msgstr "취소"
-
-#: src/preferences/devices/opoBuds/configureWindow.js:564
+#: src/preferences/devices/opoBuds/configureWindow.js:595
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:607
 msgid "Add"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:604
+#: src/preferences/devices/opoBuds/configureWindow.js:635
 msgid "Rename Custom Preset"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:605
+#: src/preferences/devices/opoBuds/configureWindow.js:636
 #, javascript-format
 msgid "Enter a new name for \"%s\""
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:612
+#: src/preferences/devices/opoBuds/configureWindow.js:643
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:283
 msgid "Rename"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:638
+#: src/preferences/devices/opoBuds/configureWindow.js:669
 msgid "Delete Custom Preset?"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:639
+#: src/preferences/devices/opoBuds/configureWindow.js:670
 #, javascript-format
 msgid "\"%s\" will be removed from the device"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:644
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:74
-msgid "Delete"
-msgstr ""
-
-#: src/preferences/devices/opoBuds/configureWindow.js:681
-msgid "Audio Effects"
-msgstr ""
-
-#: src/preferences/devices/opoBuds/configureWindow.js:687
+#: src/preferences/devices/opoBuds/configureWindow.js:718
 msgid "Dynamic Audio"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:688
+#: src/preferences/devices/opoBuds/configureWindow.js:719
 msgid "Real-time dynamic bass and 3-band equalization"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:711
+#: src/preferences/devices/opoBuds/configureWindow.js:742
 msgid "-5"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:713
+#: src/preferences/devices/opoBuds/configureWindow.js:744
 #: src/preferences/devices/sony/configureWindow.js:418
 msgid "0"
 msgstr "0"
 
-#: src/preferences/devices/opoBuds/configureWindow.js:715
+#: src/preferences/devices/opoBuds/configureWindow.js:746
 msgid "5"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:721
+#: src/preferences/devices/opoBuds/configureWindow.js:752
 msgid "Low Frequency"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:729
+#: src/preferences/devices/opoBuds/configureWindow.js:760
 msgid "Mid Frequency"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:737
+#: src/preferences/devices/opoBuds/configureWindow.js:768
 msgid "High Frequency"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:795
+#: src/preferences/devices/opoBuds/configureWindow.js:888
 msgid "Volume Enhancer"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:796
+#: src/preferences/devices/opoBuds/configureWindow.js:889
 msgid "Boost overall sound output for louder playback"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:961
+#: src/preferences/devices/opoBuds/configureWindow.js:1054
 msgid "Find My Phone"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:962
+#: src/preferences/devices/opoBuds/configureWindow.js:1055
 msgid "Allow triggering phone ringing from neckband controls"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1052
-#: src/preferences/devices/opoBuds/configureWindow.js:1209
+#: src/preferences/devices/opoBuds/configureWindow.js:1160
+#: src/preferences/devices/opoBuds/configureWindow.js:1375
 msgid "Gesture and Button Controls"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1053
-msgid "Customize actions for buttons and touch gestures"
-msgstr ""
-
-#: src/preferences/devices/opoBuds/configureWindow.js:1066
+#: src/preferences/devices/opoBuds/configureWindow.js:1174
 #: src/preferences/devices/boseBuds/configureWindow.js:797
 msgid "Switch Devices"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1095
-msgid "Configure controls"
+#: src/preferences/devices/opoBuds/configureWindow.js:1176
+msgid "Switch Track"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1153
-msgid "Noise Control Button Cycling"
+#: src/preferences/devices/opoBuds/configureWindow.js:1177
+msgid "Answer Call or End Call"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1174
-msgid "Select modes to cycle through"
+#: src/preferences/devices/opoBuds/configureWindow.js:1178
+msgid "Decline Call"
+msgstr ""
+
+#: src/preferences/devices/opoBuds/configureWindow.js:1189
+msgid "Long Touch and Hold"
 msgstr ""
 
 #: src/preferences/devices/opoBuds/configureWindow.js:1199
-msgid "Left Earbud"
+msgid "Long Press and Hold"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1201
-msgid "Right Earbud"
+#: src/preferences/devices/opoBuds/configureWindow.js:1328
+msgid "Select modes to cycle through"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1203
-msgid "Button Controls"
+#: src/preferences/devices/opoBuds/configureWindow.js:1365
+msgid "Left Earbud Call Controls"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1205
+#: src/preferences/devices/opoBuds/configureWindow.js:1367
+msgid "Right Earbud Call Controls"
+msgstr ""
+
+#: src/preferences/devices/opoBuds/configureWindow.js:1371
 msgid "Multi-Function Button"
 msgstr ""
 
-#: src/preferences/devices/opoBuds/configureWindow.js:1207
+#: src/preferences/devices/opoBuds/configureWindow.js:1373
 msgid "Noise Control Button"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:83
+msgid "Blues"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:85
+msgid "Natural"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:87
+#: src/lib/devices/opoBuds/opoBudsDevice.js:566
+msgid "Voice"
+msgstr "음성 강조"
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:119
+msgid "60"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:120
+msgid "120"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:125
+msgid "10k"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:174
+msgid "Dynamic EQ"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:175
+msgid "Adjusts the tonal balance at low volume"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:176
+msgid "Mono Audio"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:177
+msgid "Play the same audio in both earbuds"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:179
+msgid "High resolution codec. The earbuds reconnect when this changes"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:180
+msgid "Gaming Mode"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:186
+msgid "Wear Detection"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:188
+msgid "Sleep Mode"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:189
+msgid "Disable touch controls and prompts while sleeping"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:191
+msgid "Audible Feedback"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:192
+#: src/preferences/devices/boseBuds/configureWindow.js:647
+msgid "Select the language for voice prompts"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:194
+msgid "Tones"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:194
+msgid "English"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:194
+msgid "German"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:194
+msgid "French"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:194
+msgid "Spanish"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:195
+msgid "Italian"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:195
+msgid "Mandarin"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:195
+msgid "Cantonese"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:195
+msgid "Korean"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:195
+msgid "Southwark"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:204
+msgid "Auto Power Off"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:206
+msgid "30 minutes"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:206
+msgid "60 minutes"
+msgstr ""
+
+#: src/preferences/devices/cambridgeBuds/configureWindow.js:231
+msgid "Touch controls"
 msgstr ""
 
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:56
@@ -1625,18 +2175,6 @@ msgstr ""
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:73
 msgid "Preset modes cannot be deleted"
 msgstr ""
-
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:85
-msgid "Mode"
-msgstr ""
-
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:121
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:393
-#: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:667
-#: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:678
-#: src/lib/devices/opoBuds/opoBudsDevice.js:596
-msgid "Noise Cancellation Level"
-msgstr "노이즈 캔슬링 레벨"
 
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:157
 msgid "Wind Block"
@@ -1661,8 +2199,8 @@ msgid "This mode will be removed."
 msgstr ""
 
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:240
-#: src/preferences/widgets/deviceMgmtRowWidget.js:329
-#: src/preferences/widgets/deviceMgmtRowWidget.js:349
+#: src/preferences/widgets/deviceMgmtRowWidget.js:275
+#: src/preferences/widgets/deviceMgmtRowWidget.js:472
 #: src/preferences/widgets/peqRowWidget.js:1118
 msgid "Remove"
 msgstr ""
@@ -1708,10 +2246,6 @@ msgstr ""
 msgid "Home"
 msgstr "가정"
 
-#: src/preferences/devices/boseBuds/modesGroupWidget.js:616
-msgid "Music"
-msgstr "음악"
-
 #: src/preferences/devices/boseBuds/modesGroupWidget.js:618
 msgid "Relax"
 msgstr ""
@@ -1745,10 +2279,6 @@ msgstr ""
 msgid "Remember my mode"
 msgstr ""
 
-#: src/preferences/devices/boseBuds/configureWindow.js:280
-msgid "Treble Reducer"
-msgstr ""
-
 #: src/preferences/devices/boseBuds/configureWindow.js:414
 msgid "Automatic Transparency Mode"
 msgstr ""
@@ -1765,10 +2295,6 @@ msgstr ""
 #: src/preferences/devices/sony/configureWindow.js:476
 msgid "After 5 minutes"
 msgstr "5분 후"
-
-#: src/preferences/devices/boseBuds/configureWindow.js:569
-msgid "After 20 minutes"
-msgstr ""
 
 #: src/preferences/devices/boseBuds/configureWindow.js:570
 msgid "After 40 minutes"
@@ -1800,10 +2326,6 @@ msgstr ""
 
 #: src/preferences/devices/boseBuds/configureWindow.js:646
 msgid "Prompt Language"
-msgstr ""
-
-#: src/preferences/devices/boseBuds/configureWindow.js:647
-msgid "Select the language for voice prompts"
 msgstr ""
 
 #: src/preferences/devices/boseBuds/configureWindow.js:660
@@ -1876,8 +2398,7 @@ msgstr "대화 인식"
 #: src/preferences/devices/sony/configureWindow.js:111
 #: src/preferences/devices/sony/configureWindow.js:290
 #: src/lib/devices/senhBuds/senhBudsDevice.js:591
-#: src/lib/devices/opoBuds/opoBudsDevice.js:567
-#: src/lib/devices/opoBuds/opoBudsDevice.js:568
+#: src/lib/devices/opoBuds/opoBudsDevice.js:569
 msgid "Auto"
 msgstr "자동"
 
@@ -1941,10 +2462,6 @@ msgstr "릴랙스드"
 #: src/preferences/devices/sony/configureWindow.js:217
 msgid "Speech"
 msgstr "음성"
-
-#: src/preferences/devices/sony/configureWindow.js:218
-msgid "Manual"
-msgstr "수동"
 
 #: src/preferences/devices/sony/configureWindow.js:219
 msgid "Custom 1"
@@ -2039,10 +2556,6 @@ msgstr "+2"
 msgid "Headset Take Off"
 msgstr ""
 
-#: src/preferences/devices/sony/configureWindow.js:446
-msgid "Pause when taken off"
-msgstr "탈착 시 일시정지"
-
 #: src/preferences/devices/googleBuds/configureWindow.js:70
 msgid "Volume EQ"
 msgstr ""
@@ -2063,100 +2576,119 @@ msgstr ""
 msgid "Upper Treble"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:30
+#: src/preferences/widgets/deviceMgmtRowWidget.js:31
 msgid "Connection Manager"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:37
+#: src/preferences/widgets/deviceMgmtRowWidget.js:38
 msgid "Pairing Mode"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:39
+#: src/preferences/widgets/deviceMgmtRowWidget.js:40
 msgid "Enable Pairing Mode"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:40
+#: src/preferences/widgets/deviceMgmtRowWidget.js:41
 msgid "Allow a new Bluetooth device to pair."
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:77
+#: src/preferences/widgets/deviceMgmtRowWidget.js:79
 msgid "Playback Device"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:78
+#: src/preferences/widgets/deviceMgmtRowWidget.js:80
 msgid "Lock Playback Device"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:79
+#: src/preferences/widgets/deviceMgmtRowWidget.js:81
 msgid ""
 "Prevent playback from switching to another connected device while the set "
 "playback device is streaming."
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:95
+#: src/preferences/widgets/deviceMgmtRowWidget.js:97
 msgid "Connected"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:96
+#: src/preferences/widgets/deviceMgmtRowWidget.js:98
 msgid "Paired"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:97
+#: src/preferences/widgets/deviceMgmtRowWidget.js:99
 msgid "No device connected"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:98
+#: src/preferences/widgets/deviceMgmtRowWidget.js:100
 msgid "No additional device paired"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:161
-#: src/preferences/widgets/deviceMgmtRowWidget.js:248
+#: src/preferences/widgets/deviceMgmtRowWidget.js:163
+#: src/preferences/widgets/deviceMgmtRowWidget.js:345
+#: src/preferences/widgets/deviceMgmtRowWidget.js:410
 msgid "Loading Device Information..."
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:163
-#: src/preferences/widgets/deviceMgmtRowWidget.js:250
+#: src/preferences/widgets/deviceMgmtRowWidget.js:165
+#: src/preferences/widgets/deviceMgmtRowWidget.js:347
+#: src/preferences/widgets/deviceMgmtRowWidget.js:412
 msgid "(This Device)"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:299
+#: src/preferences/widgets/deviceMgmtRowWidget.js:250
+msgid "Disconnect Device?"
+msgstr ""
+
+#: src/preferences/widgets/deviceMgmtRowWidget.js:251
+msgid "The device will be disconnected."
+msgstr ""
+
+#: src/preferences/widgets/deviceMgmtRowWidget.js:255
+#: src/preferences/widgets/deviceMgmtRowWidget.js:322
+#: src/preferences/widgets/deviceMgmtRowWidget.js:364
+#: src/preferences/widgets/deviceMgmtRowWidget.js:471
+msgid "Disconnect"
+msgstr "연결 해제"
+
+#: src/preferences/widgets/deviceMgmtRowWidget.js:270
+msgid "Remove Device?"
+msgstr ""
+
+#: src/preferences/widgets/deviceMgmtRowWidget.js:271
+msgid "The device will be removed from the paired devices list."
+msgstr ""
+
+#: src/preferences/widgets/deviceMgmtRowWidget.js:294
 msgid "Connection Limit Reached"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:300
+#: src/preferences/widgets/deviceMgmtRowWidget.js:295
 msgid "Disconnect another device before connecting this device."
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:303
+#: src/preferences/widgets/deviceMgmtRowWidget.js:298
 #: src/lib/widgets/settingsButton.js:305
 msgid "OK"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:324
-msgid "Remove Device?"
-msgstr ""
-
-#: src/preferences/widgets/deviceMgmtRowWidget.js:325
-msgid "The device will be removed from the paired devices list."
-msgstr ""
-
-#: src/preferences/widgets/deviceMgmtRowWidget.js:346
-msgid "Set as Playback Device"
-msgstr ""
-
-#: src/preferences/widgets/deviceMgmtRowWidget.js:347
+#: src/preferences/widgets/deviceMgmtRowWidget.js:322
+#: src/preferences/widgets/deviceMgmtRowWidget.js:364
+#: src/preferences/widgets/deviceMgmtRowWidget.js:470
 msgid "Connect"
 msgstr "연결"
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:348
-msgid "Disconnect"
-msgstr "연결 해제"
+#: src/preferences/widgets/deviceMgmtRowWidget.js:469
+msgid "Set as Playback Device"
+msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:461
+#: src/preferences/widgets/deviceMgmtRowWidget.js:587
+msgid "Allow Connections to Multiple Devices"
+msgstr ""
+
+#: src/preferences/widgets/deviceMgmtRowWidget.js:588
 msgid "Manage Device Connections"
 msgstr ""
 
-#: src/preferences/widgets/deviceMgmtRowWidget.js:473
+#: src/preferences/widgets/deviceMgmtRowWidget.js:600
 msgid "Manage Devices"
 msgstr ""
 
@@ -2264,93 +2796,93 @@ msgstr ""
 "요. 착용 중인 사람에게 불편할 수 있는 큰 소리가 재생됩니다."
 
 #: src/preferences/widgets/earTipFitTestRow.js:19
-#: src/preferences/widgets/earTipFitTestRow.js:290
+#: src/preferences/widgets/earTipFitTestRow.js:313
 msgid "Earbud Fit Test"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:92
+#: src/preferences/widgets/earTipFitTestRow.js:93
 msgid "Good Fit"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:142
-#: src/preferences/widgets/earTipFitTestRow.js:196
-msgid "Run test"
-msgstr ""
-
-#: src/preferences/widgets/earTipFitTestRow.js:164
+#: src/preferences/widgets/earTipFitTestRow.js:140
 msgid "Test in progress…"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:185
+#: src/preferences/widgets/earTipFitTestRow.js:157
+#: src/preferences/widgets/earTipFitTestRow.js:211
+msgid "Run test"
+msgstr ""
+
+#: src/preferences/widgets/earTipFitTestRow.js:181
 msgid "Please Wait…"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:187
+#: src/preferences/widgets/earTipFitTestRow.js:183
 msgid "Keep your earbuds in your ears and wait for the fit test to complete."
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:212
+#: src/preferences/widgets/earTipFitTestRow.js:234
 msgid "Good Seal"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:218
-#: src/preferences/widgets/earTipFitTestRow.js:248
+#: src/preferences/widgets/earTipFitTestRow.js:240
+#: src/preferences/widgets/earTipFitTestRow.js:270
 msgid "Poor Seal"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:224
+#: src/preferences/widgets/earTipFitTestRow.js:246
 msgid "Test Failed"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:239
+#: src/preferences/widgets/earTipFitTestRow.js:261
 msgid "Ear Tip Fit Test"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:241
+#: src/preferences/widgets/earTipFitTestRow.js:263
 msgid ""
 "Place earbuds in both ears so they are comfortable and secure, then Run Test"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:244
-#: src/preferences/widgets/earTipFitTestRow.js:253
-#: src/preferences/widgets/earTipFitTestRow.js:258
-#: src/preferences/widgets/earTipFitTestRow.js:263
+#: src/preferences/widgets/earTipFitTestRow.js:266
+#: src/preferences/widgets/earTipFitTestRow.js:275
+#: src/preferences/widgets/earTipFitTestRow.js:280
+#: src/preferences/widgets/earTipFitTestRow.js:285
 msgid "Ear Tip Fit Test Results"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:245
+#: src/preferences/widgets/earTipFitTestRow.js:267
 msgid "Your earbuds have a good seal."
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:250
+#: src/preferences/widgets/earTipFitTestRow.js:272
 msgid ""
 "Adjust the position of the left earbud or change the ear tip size, then Run "
 "Test again."
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:255
+#: src/preferences/widgets/earTipFitTestRow.js:277
 msgid ""
 "Adjust the position of the right earbud or change the ear tip size, then Run "
 "Test again."
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:260
+#: src/preferences/widgets/earTipFitTestRow.js:282
 msgid ""
 "Adjust the position of both earbuds or change the ear tip size, then Run "
 "Test again."
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:265
+#: src/preferences/widgets/earTipFitTestRow.js:287
 msgid ""
 "The fit test could not be completed. Make sure your earbuds are worn "
 "correctly, then Run Test again."
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:292
+#: src/preferences/widgets/earTipFitTestRow.js:315
 msgid "Check acoustic seal for optimal sound quality and noise cancellation"
 msgstr ""
 
-#: src/preferences/widgets/earTipFitTestRow.js:299
+#: src/preferences/widgets/earTipFitTestRow.js:322
 msgid "Test"
 msgstr ""
 
@@ -2366,21 +2898,22 @@ msgstr "아이콘 선택"
 msgid "Choose the icon used to represent this device"
 msgstr ""
 
-#: src/preferences/widgets/iconSelectorWidget.js:49
-#: src/preferences/widgets/iconSelectorWidget.js:67
+#: src/preferences/widgets/iconSelectorWidget.js:52
+#: src/preferences/widgets/iconSelectorWidget.js:70
 msgid "Device information"
 msgstr "기기 정보"
 
-#: src/preferences/widgets/iconSelectorWidget.js:101
+#: src/preferences/widgets/iconSelectorWidget.js:104
 msgid "MAC Address"
 msgstr ""
 
-#: src/preferences/widgets/iconSelectorWidget.js:104
+#: src/preferences/widgets/iconSelectorWidget.js:114
+#: src/preferences/widgets/iconSelectorWidget.js:147
 msgid "Firmware Version"
 msgstr "펌웨어 버전"
 
-#: src/preferences/widgets/iconSelectorWidget.js:114
-#: src/preferences/widgets/iconSelectorWidget.js:147
+#: src/preferences/widgets/iconSelectorWidget.js:158
+#: src/preferences/widgets/iconSelectorWidget.js:191
 msgid "Serial Number"
 msgstr ""
 
@@ -2451,33 +2984,39 @@ msgstr "주변음 레벨"
 msgid "On"
 msgstr "켬"
 
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:673
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:677
 msgid "Noise Cancellation Strength"
 msgstr ""
 
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:686
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:690
 #: src/lib/devices/senhBuds/senhBudsDevice.js:582
 msgid "Noise Level"
 msgstr ""
 
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:695
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:699
+msgctxt "Redmi transparency mode"
 msgid "Regular"
 msgstr ""
 
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:696
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:700
+msgctxt "Redmi transparency mode"
 msgid "Voice"
-msgstr "음성 강조"
+msgstr ""
 
-#: src/lib/devices/redmiBuds/redmiBudsDevice.js:717
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:701
+msgctxt "Redmi transparency mode"
+msgid "Ambient"
+msgstr ""
+
+#: src/lib/devices/redmiBuds/redmiBudsDevice.js:721
 msgid "Transparency Strength"
 msgstr ""
 
-#: src/lib/devices/nothingBuds/nothingBudsDevice.js:429
+#: src/lib/devices/nothingBuds/nothingBudsDevice.js:491
 msgid "Personalized ANC"
 msgstr ""
 
 #: src/lib/devices/senhBuds/senhBudsDevice.js:590
-#: src/lib/devices/opoBuds/opoBudsDevice.js:575
 msgid "Max"
 msgstr ""
 
@@ -2486,16 +3025,19 @@ msgid "Anti Wind"
 msgstr ""
 
 #: src/lib/devices/galaxyBuds/galaxyBudsDevice.js:671
-#: src/lib/devices/opoBuds/opoBudsDevice.js:622
+#: src/lib/devices/opoBuds/opoBudsDevice.js:637
 #: src/lib/devices/sony/sonyDevice.js:193
 #: src/lib/devices/sony/sonyDevice.js:195
 #: src/lib/devices/sony/sonyDevice.js:199
 msgid "Focus on Voice"
 msgstr "음성 집중"
 
-#: src/lib/devices/opoBuds/opoBudsDevice.js:615
-#: src/lib/devices/opoBuds/opoBudsDevice.js:626
-msgid "Wind Noise Reduction"
+#: src/lib/devices/opoBuds/opoBudsDevice.js:565
+msgid "Regular"
+msgstr ""
+
+#: src/lib/devices/opoBuds/opoBudsDevice.js:596
+msgid "Transparency Level"
 msgstr ""
 
 #: src/lib/devices/boseBuds/boseBudsDevice.js:684
@@ -2619,6 +3161,15 @@ msgstr "설정"
 #: src/lib/widgets/deviceRow.js:110
 msgid "Battery Level"
 msgstr "배터리 잔량"
+
+#~ msgid "Roller Gesture Control"
+#~ msgstr "롤러 제스처 조작"
+
+#~ msgid "Case Gesture Control"
+#~ msgstr "케이스 제스처 조작"
+
+#~ msgid "Slider Gesture Control"
+#~ msgstr "슬라이더 제스처 조작"
 
 #~ msgid "Select the icon used for the indicator and quick menu"
 #~ msgstr "표시기 및 빠른 메뉴에 사용할 아이콘을 선택하세요"
