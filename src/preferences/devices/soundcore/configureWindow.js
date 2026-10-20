@@ -14,7 +14,8 @@ import {DeviceManagementRow} from './../../widgets/deviceMgmtRowWidget.js';
 import {SliderRowWidget} from './../../widgets/sliderRowWidget.js';
 import {CheckBoxesRowWidget} from './../../widgets/checkBoxesRowWidget.js';
 import {
-    SoundcoreConfiguration, AmbientMode, NcMode, TransparencyMode, TransportMode, TouchActionCustom, EqPresets
+    SoundcoreConfiguration, AmbientMode, NcMode, TransparencyMode, TransportMode,
+    TouchActionCustom, EqPresets
 } from '../../../lib/devices/soundcore/soundcoreConfig.js';
 
 const SettingsKey = 'soundcore-list';
@@ -596,7 +597,8 @@ export const ConfigureWindow = GObject.registerClass({
         this._refreshProfileRow();
         this._presetRow.visible = mode === 'default';
         this._hearTypeRow.visible = mode === 'hearid';
-        this._genreRow.visible = mode === 'hearid' && this._settingsItems['hearid-type'] === 'genre';
+        this._genreRow.visible = mode === 'hearid' &&
+                this._settingsItems['hearid-type'] === 'genre';
     }
 
     _addTouchControls(page) {
