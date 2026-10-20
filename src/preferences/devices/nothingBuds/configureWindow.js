@@ -14,6 +14,7 @@ import {IconSelectorWidget} from './../../widgets/iconSelectorWidget.js';
 import {RingMyBudsRow} from './../../widgets/ringMyBudsRow.js';
 import {EqualizerWidget} from './../../widgets/equalizerWidget.js';
 import {DeviceManagementRow} from './../../widgets/deviceMgmtRowWidget.js';
+import {BtDeviceState} from '../../../lib/devices/commonEmuns.js';
 import {EarTipStatus, EarTipFitTestRow} from '../../widgets/earTipFitTestRow.js';
 import {
     NothingBudsModelList
@@ -517,22 +518,23 @@ export const ConfigureWindow = GObject.registerClass({
         this._dualConnSwitch.active = this._settingsItems.multipoint ?? false;
 
         this._dualConnSwitch.connect('notify::active', () => {
-            this._updateGsettings(
-                'multipoint',
-                this._dualConnSwitch.active
-            );
+            this._updateGsettings('multipoint', this._dualConnSwitch.active);
         });
 
         const actionData = this._settingsItems['dev-mgmt-action'];
         this._seq = actionData?.seq ?? 0;
 
         this._dualConnSwitch.connect('device-action', (_row, action, id) => {
-            const data = {
-                seq: this._seq ^= 1,
-                action,
-                id,
-            };
+            const devices = this._settingsItems['dev-mgmt'];
+            const device = devices.find(device => device.id === id);
 
+            if (device) {
+                device.state = BtDeviceState.Processing;
+                this._updateGsettings('dev-mgmt', devices);
+                this._dualConnSwitch.updateDevices(devices);
+            }
+
+            const data = {seq: this._seq ^= 1, action, id};
             this._updateGsettings('dev-mgmt-action', data);
         });
 
