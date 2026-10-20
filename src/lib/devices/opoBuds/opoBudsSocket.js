@@ -53,10 +53,10 @@ export const OpoBudsSocket = GObject.registerClass({
             if (this._modelData.noiseControl)
                 this._getNoiseControl();
             this._getFeatureSwitches();
-            if (this._modelData.eqPreset)
-                this._getEqPreset();
             if (this._modelData.customEqSupport)
                 this.getCustomEqInfo();
+            if (this._modelData.eqPreset)
+                this._getEqPreset();
             if (this._modelData.gestureOptions)
                 this._getGestures();
             if (this._modelData.dualConnection)
@@ -290,11 +290,11 @@ export const OpoBudsSocket = GObject.registerClass({
 
         this._getFeatureSwitches();
 
-        if (modelData.eqPreset)
-            this._getEqPreset();
-
         if (modelData.customEqSupport)
             this.getCustomEqInfo();
+
+        if (modelData.eqPreset)
+            this._getEqPreset();
 
         if (modelData.broadcastEvents) {
             this._queuePacket(
@@ -363,6 +363,10 @@ export const OpoBudsSocket = GObject.registerClass({
 
             case Cmd.BASSLEVEL_NOTIFY:
                 this._parseDynamicBassOpo(payload);
+                break;
+
+            case Cmd.GET_ALL_EQ_INFO_RSP:
+                this._parseCustomEqInfoResponse(payload);
                 break;
 
             case Cmd.CUSTOM_EQ_NOTIFY:
@@ -629,6 +633,20 @@ export const OpoBudsSocket = GObject.registerClass({
 
         const payload = [minByte, maxByte, currentByte];
         this._queuePacket(Cmd.SET_BASS_ENGINE, payload, 'Set Bass Level');
+    }
+
+    _parseCustomEqInfoResponse(payload) {
+        if (payload.length === 0)
+            return;
+
+        const status = payload[0];
+
+        if (status !== 0x00) {
+            this._log.info(`Custom EQ operation failed with status: 0x${status.toString(16)}`);
+            return;
+        }
+
+        this._parseCustomEqInfo(payload.slice(1));
     }
 
     _parseCustomEqInfo(payload) {
