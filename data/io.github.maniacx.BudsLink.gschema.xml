@@ -55,6 +55,9 @@
         <key name="soundcore-list" type="as">
             <default>[]</default>
         </key>
+        <key name="moto-buds-list" type="as">
+            <default>[]</default>
+        </key>
         <key name="gfps-list" type="as">
             <default>[]</default>
         </key>

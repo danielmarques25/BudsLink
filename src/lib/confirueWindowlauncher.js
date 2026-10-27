@@ -11,6 +11,7 @@ import * as EdifierBuds from '../preferences/devices/edifierBuds/configureWindow
 import * as OpoBuds from '../preferences/devices/opoBuds/configureWindow.js';
 import * as CambridgeBuds from '../preferences/devices/cambridgeBuds/configureWindow.js';
 import * as Soundcore from '../preferences/devices/soundcore/configureWindow.js';
+import * as MotoBuds from '../preferences/devices/motoBuds/configureWindow.js';
 import * as Gfps from '../preferences/devices/gfps/configureWindow.js';
 
 let _settings = null;
@@ -84,6 +85,10 @@ export function createConfigureWindow({
         case 'soundcore':
             Prefs = Soundcore;
             schemaKey = 'soundcore-list';
+            break;
+        case 'motoBuds':
+            Prefs = MotoBuds;
+            schemaKey = 'moto-buds-list';
             break;
         case 'gfps':
             Prefs = Gfps;

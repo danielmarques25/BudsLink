@@ -253,5 +253,10 @@
         <file>lib/devices/soundcore/soundcoreSocket.js</file>
         <file>lib/devices/soundcore/deviceConfigs/Liberty-4-NC.js</file>
         <file>preferences/devices/soundcore/configureWindow.js</file>
+
+        <file>lib/devices/motoBuds/motoBudsConfig.js</file>
+        <file>lib/devices/motoBuds/motoBudsDevice.js</file>
+        <file>lib/devices/motoBuds/motoBudsSocket.js</file>
+        <file>preferences/devices/motoBuds/configureWindow.js</file>
     </gresource>
 </gresources>
